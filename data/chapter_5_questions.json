@@ -1,0 +1,662 @@
+[
+  {
+    "question": "Η Μηχανική Μάθηση βασίζεται στη ρητή προγραμματισμένη καθοδήγηση από τον άνθρωπο για κάθε κανόνα.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 143",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Η Μηχανική Μάθηση επιτρέπει στους υπολογιστές να μαθαίνουν από δεδομένα χωρίς ρητή προγραμματισμένη καθοδήγηση."
+  },
+  {
+    "question": "Στην Επιβλεπόμενη Μάθηση, το μοντέλο εκπαιδεύεται χρησιμοποιώντας δεδομένα με ετικέτες (labels).",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 144",
+      "paragraph": "3η παράγραφος"
+    },
+    "right_answer": "Η Επιβλεπόμενη Μάθηση χρησιμοποιεί δεδομένα με ετικέτες, δηλαδή δεδομένα στα οποία γνωρίζουμε τη σωστή απάντηση."
+  },
+  {
+    "question": "Η Μη Επιβλεπόμενη Μάθηση χρησιμοποιεί προκαθορισμένες ετικέτες για να εντοπίσει μοτίβα.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 144",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Στη Μη Επιβλεπόμενη Μάθηση, το μοντέλο εντοπίζει μοτίβα χωρίς προκαθορισμένες ετικέτες."
+  },
+  {
+    "question": "Η Λογιστική Παλινδρόμηση (Logistic Regression) χρησιμοποιείται κυρίως για προβλήματα παλινδρόμησης (πρόβλεψη τιμών).",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 145",
+      "paragraph": "Λίστα (Κύριοι αλγόριθμοι ταξινόμησης)"
+    },
+    "right_answer": "Παρά το όνομά της, η Λογιστική Παλινδρόμηση χρησιμοποιείται κυρίως για δυαδική ταξινόμηση."
+  },
+  {
+    "question": "Τα Τυχαία Δάση (Random Forest) χρησιμοποιούν πολλαπλά δέντρα απόφασης για μεγαλύτερη ακρίβεια.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 145",
+      "paragraph": "Λίστα (Κύριοι αλγόριθμοι ταξινόμησης)"
+    },
+    "right_answer": "Τα Τυχαία Δάση χρησιμοποιούν πολλαπλά δέντρα απόφασης για μεγαλύτερη ακρίβεια και σταθερότητα."
+  },
+  {
+    "question": "Η Ενισχυτική Μάθηση (Reinforcement Learning) βασίζεται σε ένα σύστημα επιβράβευσης και τιμωρίας.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 141",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Η Ενισχυτική Μάθηση στηρίζεται σε σύστημα επιβράβευσης και τιμωρίας όπου ένας πράκτορας αλληλεπιδρά με το περιβάλλον."
+  },
+  {
+    "question": "Ο αλγόριθμος K-Means χρησιμοποιείται για ταξινόμηση (classification) δεδομένων με ετικέτες.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 149",
+      "paragraph": "Λίστα (Αλγόριθμοι Ομαδοποίησης)"
+    },
+    "right_answer": "Ο αλγόριθμος K-Means χρησιμοποιείται για ομαδοποίηση (clustering) στη Μη Επιβλεπόμενη Μάθηση."
+  },
+  {
+    "question": "Η μείωση διαστάσεων (Dimensionality Reduction) βοηθά στη μείωση του θορύβου στα δεδομένα.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 150",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Η μείωση διαστάσεων αφαιρεί περιττές πληροφορίες και θόρυβο, διατηρώντας τα σημαντικά χαρακτηριστικά."
+  },
+  {
+    "question": "Στην Ενισχυτική Μάθηση, ο 'Πράκτορας' (Agent) είναι το περιβάλλον στο οποίο λαμβάνουν χώρα οι ενέργειες.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 153",
+      "paragraph": "Λίστα (Βασικά Στοιχεία)"
+    },
+    "right_answer": "Ο Πράκτορας (Agent) είναι η οντότητα που μαθαίνει και δρα, όχι το περιβάλλον."
+  },
+  {
+    "question": "Η υπερεκπαίδευση (Overfitting) συμβαίνει όταν το μοντέλο μαθαίνει υπερβολικά καλά τα δεδομένα εκπαίδευσης και αποτυγχάνει να γενικεύσει.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 148",
+      "paragraph": "1η παράγραφος (Προκλήσεις)"
+    },
+    "right_answer": "Υπερεκπαίδευση συμβαίνει όταν το μοντέλο προσαρμόζεται υπερβολικά στα δεδομένα εκπαίδευσης, χάνοντας την ικανότητα γενίκευσης."
+  },
+  {
+    "question": "Η τεχνική Grid Search δοκιμάζει τυχαίους συνδυασμούς υπερπαραμέτρων.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 159",
+      "paragraph": "Λίστα (Κύριες Τεχνικές)"
+    },
+    "right_answer": "Η Grid Search δοκιμάζει εξαντλητικά όλους τους πιθανούς συνδυασμούς σε ένα προκαθορισμένο πλέγμα τιμών, όχι τυχαία."
+  },
+  {
+    "question": "Η Ανάλυση Κύριων Συνιστωσών (PCA) είναι μια τεχνική μείωσης διαστάσεων.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 150",
+      "paragraph": "Λίστα (Αλγόριθμοι Μείωσης Διαστάσεων)"
+    },
+    "right_answer": "Η PCA (Principal Component Analysis) μετασχηματίζει τα δεδομένα σε λιγότερες διαστάσεις."
+  },
+  {
+    "question": "Ο δείκτης F1-score είναι ο μέσος όρος της Ακρίβειας (Precision) και της Ανάκλησης (Recall).",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 166",
+      "paragraph": "Λίστα (Μετρικές Αξιολόγησης)"
+    },
+    "right_answer": "Το F1-score είναι ο αρμονικός μέσος της Ακρίβειας και της Ανάκλησης, όχι ο απλός αριθμητικός μέσος."
+  },
+  {
+    "question": "Η μήτρα σύγχυσης (Confusion Matrix) χρησιμοποιείται για την αξιολόγηση μοντέλων ταξινόμησης.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 165",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Η μήτρα σύγχυσης δείχνει τις σωστές και λανθασμένες προβλέψεις ανά κατηγορία."
+  },
+  {
+    "question": "Η υποεκπαίδευση (Underfitting) συμβαίνει όταν το μοντέλο είναι πολύ περίπλοκο για τα δεδομένα.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 148",
+      "paragraph": "1η παράγραφος (Προκλήσεις)"
+    },
+    "right_answer": "Η υποεκπαίδευση συμβαίνει όταν το μοντέλο είναι πολύ απλό για να συλλάβει τη δομή των δεδομένων."
+  },
+  {
+    "question": "Η μέθοδος Hold-Out χωρίζει τα δεδομένα σε δύο σύνολα: εκπαίδευσης και δοκιμής.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 165",
+      "paragraph": "1η παράγραφος (Μέθοδοι Διαχωρισμού)"
+    },
+    "right_answer": "Η μέθοδος Hold-Out διαχωρίζει τα δεδομένα σε σετ εκπαίδευσης (training set) και σετ δοκιμής (test set)."
+  },
+  {
+    "question": "Ο αλγόριθμος Q-Learning ανήκει στην κατηγορία της Επιβλεπόμενης Μάθησης.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 154",
+      "paragraph": "Λίστα (Τύποι Αλγορίθμων Ενισχυτικής)"
+    },
+    "right_answer": "Ο Q-Learning είναι ένας από τους πιο δημοφιλείς αλγορίθμους της Ενισχυτικής Μάθησης (Reinforcement Learning)."
+  },
+  {
+    "question": "Στη μελέτη περίπτωσης της εταιρείας Fintech (σελ. 162), χρησιμοποιήθηκε ο αλγόριθμος Isolation Forest για ανίχνευση απάτης.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 162",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Η εταιρεία χρησιμοποίησε τον αλγόριθμο Isolation Forest για τον εντοπισμό ανωμαλιών στις συναλλαγές."
+  },
+  {
+    "question": "Η καμπύλη ROC (ROC Curve) απεικονίζει την απόδοση ενός μοντέλου παλινδρόμησης.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 167",
+      "paragraph": "1η παράγραφος (Καμπύλη ROC)"
+    },
+    "right_answer": "Η καμπύλη ROC χρησιμοποιείται για την αξιολόγηση μοντέλων ταξινόμησης, όχι παλινδρόμησης."
+  },
+  {
+    "question": "Το Mean Squared Error (MSE) είναι μετρική για προβλήματα παλινδρόμησης.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 167",
+      "paragraph": "Λίστα (Μετρικές για Παλινδρόμηση)"
+    },
+    "right_answer": "Το MSE (Μέσο Τετραγωνικό Σφάλμα) μετρά τη μέση τετραγωνική διαφορά μεταξύ προβλεπόμενων και πραγματικών τιμών."
+  },
+  {
+    "question": "Οι υπερπαράμετροι (hyperparameters) μαθαίνονται αυτόματα από τα δεδομένα κατά την εκπαίδευση.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 158",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Οι υπερπαράμετροι ρυθμίζονται πριν από την εκπαίδευση και δεν μαθαίνονται από τα δεδομένα."
+  },
+  {
+    "question": "Η Ιεραρχική Ομαδοποίηση (Hierarchical Clustering) δημιουργεί μια δενδρική δομή ομάδων.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 149",
+      "paragraph": "Λίστα (Αλγόριθμοι Ομαδοποίησης)"
+    },
+    "right_answer": "Η Ιεραρχική Ομαδοποίηση ομαδοποιεί δεδομένα δημιουργώντας μια δενδρική δομή (dendrogram)."
+  },
+  {
+    "question": "Η μέθοδος Cross-Validation (Διασταυρωμένη Επικύρωση) χρησιμοποιεί πάντα μόνο ένα σετ δεδομένων για έλεγχο.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 165",
+      "paragraph": "2η παράγραφος (K-Fold Cross-Validation)"
+    },
+    "right_answer": "Η Cross-Validation χωρίζει τα δεδομένα σε k τμήματα και επαναλαμβάνει την εκπαίδευση/δοκιμή πολλές φορές."
+  },
+  {
+    "question": "Στην Ενισχυτική Μάθηση, η 'Πολιτική' (Policy) καθορίζει τη συμπεριφορά του πράκτορα.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 153",
+      "paragraph": "Λίστα (Βασικά Στοιχεία)"
+    },
+    "right_answer": "Η Πολιτική (Policy) είναι η στρατηγική που χρησιμοποιεί ο πράκτορας για να αποφασίσει την επόμενη ενέργεια."
+  },
+  {
+    "question": "Το AUC (Area Under the Curve) παίρνει τιμές από 0 έως 100.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 167",
+      "paragraph": "1η παράγραφος (Καμπύλη ROC)"
+    },
+    "right_answer": "Το AUC παίρνει τιμές από 0 έως 1 (ή 0.5 έως 1 για τυχαία πρόβλεψη και άνω)."
+  },
+  {
+    "question": "Η Random Search (Τυχαία Αναζήτηση) είναι συχνά πιο γρήγορη από την Grid Search.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 160",
+      "paragraph": "1η παράγραφος (Τυχαία Αναζήτηση)"
+    },
+    "right_answer": "Η Random Search μπορεί να βρει καλές υπερπαραμέτρους πιο γρήγορα, καθώς δεν ελέγχει κάθε πιθανό συνδυασμό."
+  },
+  {
+    "question": "Οι γενετικοί αλγόριθμοι χρησιμοποιούνται μόνο για προβλήματα ταξινόμησης.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 161",
+      "paragraph": "1η παράγραφος (Γενετικοί Αλγόριθμοι)"
+    },
+    "right_answer": "Οι γενετικοί αλγόριθμοι χρησιμοποιούνται για βελτιστοποίηση και εύρεση βέλτιστων λύσεων σε πολύπλοκα προβλήματα."
+  },
+  {
+    "question": "Η τεχνική 'Early Stopping' σταματά την εκπαίδευση όταν η απόδοση στο validation set αρχίζει να χειροτερεύει.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 148",
+      "paragraph": "2η παράγραφος (Βελτιώσεις)"
+    },
+    "right_answer": "Η Πρόωρη Διακοπή (Early Stopping) αποτρέπει την υπερεκπαίδευση σταματώντας τη διαδικασία όταν αυξάνεται το σφάλμα επικύρωσης."
+  },
+  {
+    "question": "Το 'Cold Start Problem' είναι μια πρόκληση που σχετίζεται με την έλλειψη αρχικών δεδομένων.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 152",
+      "paragraph": "2η παράγραφος (Προκλήσεις Μη Επιβλεπόμενης)"
+    },
+    "right_answer": "Αναφέρεται στη δυσκολία εκκίνησης της διαδικασίας μάθησης όταν δεν υπάρχουν επαρκή ιστορικά δεδομένα."
+  },
+  {
+    "question": "Στην Ενισχυτική Μάθηση, οι ανταμοιβές είναι πάντα άμεσες και θετικές.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 153",
+      "paragraph": "Λίστα (Βασικά Στοιχεία - Ανταμοιβή)"
+    },
+    "right_answer": "Οι ανταμοιβές μπορεί να είναι θετικές ή αρνητικές (ποινές) και συχνά είναι καθυστερημένες."
+  },
+  {
+    "question": "Η 'Ακρίβεια' (Accuracy) είναι πάντα η καλύτερη μετρική, ακόμα και σε μη ισορροπημένα δεδομένα.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 166",
+      "paragraph": "1η παράγραφος (Ακρίβεια)"
+    },
+    "right_answer": "Σε μη ισορροπημένα σύνολα δεδομένων, η Ακρίβεια μπορεί να είναι παραπλανητική."
+  },
+  {
+    "question": "Το DBSCAN είναι αλγόριθμος ομαδοποίησης βασισμένος στην πυκνότητα.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 149",
+      "paragraph": "Λίστα (Αλγόριθμοι Ομαδοποίησης)"
+    },
+    "right_answer": "Ο DBSCAN (Density-Based Spatial Clustering) ομαδοποιεί σημεία που βρίσκονται κοντά και διαχωρίζει αραιές περιοχές."
+  },
+  {
+    "question": "Η 'Εξερεύνηση' (Exploration) στην Ενισχυτική Μάθηση σημαίνει την επιλογή της καλύτερης γνωστής ενέργειας.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 153",
+      "paragraph": "3η παράγραφος (Εξερεύνηση vs Εκμετάλλευση)"
+    },
+    "right_answer": "Η 'Εξερεύνηση' δοκιμάζει νέες ενέργειες, ενώ η 'Εκμετάλλευση' (Exploitation) επιλέγει την καλύτερη γνωστή."
+  },
+  {
+    "question": "Η μείωση της διασποράς (Variance Reduction) είναι στόχος των τεχνικών κανονικοποίησης (Regularization).",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 148",
+      "paragraph": "2η παράγραφος (Βελτιώσεις)"
+    },
+    "right_answer": "Η κανονικοποίηση (L1/L2) προσθέτει ποινές για να μειώσει την πολυπλοκότητα και τη διασπορά του μοντέλου."
+  },
+  {
+    "question": "Η Bayesian Optimization χρησιμοποιεί ένα πιθανοτικό μοντέλο για να βρει τις καλύτερες υπερπαραμέτρους.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 160",
+      "paragraph": "2η παράγραφος (Bayesian Optimization)"
+    },
+    "right_answer": "Η Βελτιστοποίηση Bayes κατασκευάζει ένα πιθανοτικό μοντέλο της συνάρτησης στόχου για πιο έξυπνη αναζήτηση."
+  },
+  {
+    "question": "Η προεπεξεργασία δεδομένων (Preprocessing) δεν είναι απαραίτητη στη Μηχανική Μάθηση.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 143",
+      "paragraph": "2η παράγραφος (Πώς Λειτουργεί)"
+    },
+    "right_answer": "Η προεπεξεργασία δεδομένων είναι κρίσιμο στάδιο για τη μετατροπή τους σε κατάλληλη μορφή."
+  },
+  {
+    "question": "Το A/B Testing χρησιμοποιείται για τη σύγκριση δύο εκδόσεων ενός μοντέλου σε πραγματικό περιβάλλον.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 168",
+      "paragraph": "1η παράγραφος (A/B Testing)"
+    },
+    "right_answer": "Το A/B Testing συγκρίνει την απόδοση δύο διαφορετικών εκδόσεων (Α και Β) σε πραγματικούς χρήστες."
+  },
+  {
+    "question": "Η Μηχανική Μάθηση είναι συνώνυμο της τεχνητής νοημοσύνης.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 143",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Η Μηχανική Μάθηση είναι υποκλάδος της τεχνητής νοημοσύνης, όχι συνώνυμο."
+  },
+  {
+    "question": "Στην πρόβλεψη καιρού χρησιμοποιούνται κυρίως αλγόριθμοι ταξινόμησης.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 146",
+      "paragraph": "Λίστα (Παλινδρόμηση)"
+    },
+    "right_answer": "Η πρόβλεψη θερμοκρασίας ή καιρού είναι τυπικά πρόβλημα παλινδρόμησης (συνεχείς τιμές) ή χρονοσειρών."
+  },
+  {
+    "question": "Το 'Feature Engineering' αφορά τη δημιουργία νέων χαρακτηριστικών από τα υπάρχοντα δεδομένα.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 157",
+      "paragraph": "2η παράγραφος (Επιλογή Χαρακτηριστικών)"
+    },
+    "right_answer": "Η μηχανική χαρακτηριστικών (Feature Engineering) βελτιώνει την απόδοση δημιουργώντας πιο ενημερωτικά χαρακτηριστικά."
+  },
+  {
+    "question": "Τα 'Support Vector Machines' (SVM) χρησιμοποιούν υπερεπιφάνειες για το διαχωρισμό δεδομένων.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 145",
+      "paragraph": "Λίστα (Κύριοι αλγόριθμοι ταξινόμησης)"
+    },
+    "right_answer": "Τα SVM χωρίζουν τα δεδομένα σε κατηγορίες βρίσκοντας την βέλτιστη διαχωριστική υπερεπιφάνεια."
+  },
+  {
+    "question": "Η μελέτη περίπτωσης (σελ. 170) αφορούσε τη χρήση Μηχανικής Μάθησης για πρόβλεψη πωλήσεων σε λιανεμπόριο.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 170",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Η μελέτη περίπτωσης εξετάζει την πρόβλεψη ζήτησης σε κατάστημα λιανικής (Demand Forecasting)."
+  },
+  {
+    "question": "Το MAPE (Mean Absolute Percentage Error) μετρά το σφάλμα ως ποσοστό.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 167",
+      "paragraph": "Λίστα (Μετρικές για Παλινδρόμηση)"
+    },
+    "right_answer": "Το MAPE εκφράζει την ακρίβεια της πρόβλεψης ως ποσοστό επί τοις εκατό."
+  },
+  {
+    "question": "Η ανίχνευση spams (spam detection) είναι παράδειγμα Μη Επιβλεπόμενης Μάθησης.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 145",
+      "paragraph": "Λίστα (Παραδείγματα εφαρμογών ταξινόμησης)"
+    },
+    "right_answer": "Η ανίχνευση spam είναι κλασικό παράδειγμα Επιβλεπόμενης Μάθησης (Ταξινόμηση)."
+  },
+  {
+    "question": "Οι αλγόριθμοι συστάσεων (Recommendation Systems) χρησιμοποιούν συχνά τεχνικές ομαδοποίησης.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 150",
+      "paragraph": "Λίστα (Εφαρμογές Μη Επιβλεπόμενης)"
+    },
+    "right_answer": "Τα συστήματα συστάσεων ομαδοποιούν χρήστες με παρόμοιες προτιμήσεις (Clustering)."
+  },
+  {
+    "question": "Η 'Ανάκληση' (Recall) μετρά το ποσοστό των θετικών περιπτώσεων που εντοπίστηκαν σωστά.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 166",
+      "paragraph": "Λίστα (Ανάκληση)"
+    },
+    "right_answer": "Η Ανάκληση δείχνει πόσα από τα πραγματικά θετικά δείγματα εντόπισε το μοντέλο."
+  },
+  {
+    "question": "Η 'Εκμετάλλευση' (Exploitation) εστιάζει στη δοκιμή νέων, άγνωστων ενεργειών.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 153",
+      "paragraph": "3η παράγραφος (Εξερεύνηση vs Εκμετάλλευση)"
+    },
+    "right_answer": "Η Εκμετάλλευση εστιάζει στη χρήση της ήδη αποκτηθείσας γνώσης, όχι στη δοκιμή νέων."
+  },
+  {
+    "question": "Τα δεδομένα δοκιμής (Test Set) χρησιμοποιούνται κατά τη διάρκεια της εκπαίδευσης για τη ρύθμιση των παραμέτρων.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 165",
+      "paragraph": "1η παράγραφος (Hold-Out)"
+    },
+    "right_answer": "Τα δεδομένα δοκιμής χρησιμοποιούνται ΜΟΝΟ για την τελική αξιολόγηση, όχι κατά την εκπαίδευση."
+  },
+  {
+    "question": "Η Ενισχυτική Μάθηση χρησιμοποιείται στην ρομποτική για την εκμάθηση κίνησης.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 154",
+      "paragraph": "Λίστα (Εφαρμογές Ενισχυτικής)"
+    },
+    "right_answer": "Η Ρομποτική είναι βασικό πεδίο εφαρμογής της Ενισχυτικής Μάθησης (π.χ. περπάτημα, χειρισμός αντικειμένων)."
+  },
+  {
+    "question": "Ο συντελεστής R-squared (R²) χρησιμοποιείται για την αξιολόγηση της ταξινόμησης.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 167",
+      "paragraph": "Λίστα (Μετρικές για Παλινδρόμηση)"
+    },
+    "right_answer": "Το R² είναι μετρική για μοντέλα Παλινδρόμησης, όχι ταξινόμησης."
+  },
+  {
+    "question": "Η ταξινόμηση εικόνων σε 'γάτα' ή 'σκύλο' είναι πρόβλημα δυαδικής ταξινόμησης.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 145",
+      "paragraph": "1η παράγραφος (Αλγόριθμοι Ταξινόμησης)"
+    },
+    "right_answer": "Όταν υπάρχουν δύο πιθανές κλάσεις, το πρόβλημα ονομάζεται δυαδική ταξινόμηση."
+  },
+  {
+    "question": "Οι αλγόριθμοι συσταδοποίησης (Clustering) απαιτούν δεδομένα με ετικέτες.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 149",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Η συσταδοποίηση ανήκει στη Μη Επιβλεπόμενη Μάθηση και δεν απαιτεί ετικέτες."
+  },
+  {
+    "question": "Η τεχνική 'Bootstrapping' χρησιμοποιείται στα Τυχαία Δάση.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 145",
+      "paragraph": "Λίστα (Τυχαία Δάση - Context)"
+    },
+    "right_answer": "Τα Random Forests χρησιμοποιούν τεχνικές όπως το Bagging (Bootstrap Aggregating)."
+  },
+  {
+    "question": "Η ανάλυση συναισθήματος (Sentiment Analysis) είναι εφαρμογή της Επιβλεπόμενης Μάθησης.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 146",
+      "paragraph": "Λίστα (Νευρωνικά Δίκτυα context)"
+    },
+    "right_answer": "Συνήθως αντιμετωπίζεται ως πρόβλημα ταξινόμησης κειμένου (θετικό/αρνητικό)."
+  },
+  {
+    "question": "Η 'Βελτιστοποίηση Υπερπαραμέτρων' δεν επηρεάζει σημαντικά την απόδοση του μοντέλου.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 158",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Η σωστή ρύθμιση των υπερπαραμέτρων είναι κρίσιμη για τη βέλτιστη απόδοση του μοντέλου."
+  },
+  {
+    "question": "Ο αλγόριθμος 'Apriori' χρησιμοποιείται για την εύρεση κανόνων συσχέτισης (Association Rules).",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 150",
+      "paragraph": "Λίστα (Κανόνες Συσχέτισης)"
+    },
+    "right_answer": "Ο αλγόριθμος Apriori χρησιμοποιείται για την ανακάλυψη σχέσεων μεταξύ προϊόντων (π.χ. Market Basket Analysis)."
+  },
+  {
+    "question": "Η μελέτη περίπτωσης της Emmel (σελ. 263) αναφέρεται σε αυτό το κεφάλαιο.",
+    "answer": false,
+    "chapter_number": 5,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 141-172",
+      "paragraph": "Ολόκληρο το κείμενο"
+    },
+    "right_answer": "Η συγκεκριμένη μελέτη περίπτωσης (Emmel) βρίσκεται εκτός των σελίδων 141-172 (ανήκει στο Κεφάλαιο 9)."
+  },
+  {
+    "question": "Το 'Gradient Boosting' είναι τεχνική ενίσχυσης που χτίζει δέντρα διαδοχικά.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 145",
+      "paragraph": "Λίστα (Boosting context)"
+    },
+    "right_answer": "Οι τεχνικές Boosting (όπως το Gradient Boosting) εκπαιδεύουν μοντέλα διαδοχικά για να διορθώσουν τα λάθη των προηγούμενων."
+  },
+  {
+    "question": "Η 'Ανάλυση Αγοραστικού Καλαθιού' (Market Basket Analysis) είναι εφαρμογή της Μηχανικής Μάθησης.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 150",
+      "paragraph": "3η παράγραφος"
+    },
+    "right_answer": "Χρησιμοποιεί κανόνες συσχέτισης για να βρει προϊόντα που αγοράζονται μαζί."
+  },
+  {
+    "question": "Τα 'Deep Q-Networks' (DQN) συνδυάζουν Q-Learning με Νευρωνικά Δίκτυα.",
+    "answer": true,
+    "chapter_number": 5,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 154",
+      "paragraph": "Λίστα (Τύποι Αλγορίθμων Ενισχυτικής)"
+    },
+    "right_answer": "Τα DQN χρησιμοποιούν βαθιά νευρωνικά δίκτυα για να προσεγγίσουν τη συνάρτηση Q."
+  }
+]

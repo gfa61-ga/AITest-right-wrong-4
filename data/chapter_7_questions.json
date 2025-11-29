@@ -1,0 +1,662 @@
+[
+  {
+    "question": "Η Επεξεργασία Φυσικής Γλώσσας (NLP) εστιάζει στην αλληλεπίδραση ανθρώπου–μηχανής μέσω κώδικα προγραμματισμού.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 216",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Η Επεξεργασία Φυσικής Γλώσσας εστιάζει στην αλληλεπίδραση ανθρώπου–μηχανής μέσω της φυσικής, ανθρώπινης γλώσσας."
+  },
+  {
+    "question": "Το Tokenization είναι η διαδικασία διαχωρισμού μιας πρότασης σε επιμέρους λέξεις ή φράσεις.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 218",
+      "paragraph": "Λίστα (Tokenization)"
+    },
+    "right_answer": "Το Tokenization (διαχωρισμός λέξεων) χωρίζει την πρόταση σε μικρότερες μονάδες που ονομάζονται tokens."
+  },
+  {
+    "question": "Η λημματοποίηση (Lemmatization) διατηρεί μόνο τη ρίζα της λέξης, κόβοντας τις καταλήξεις.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 218",
+      "paragraph": "Λίστα (Stemming/Lemmatization)"
+    },
+    "right_answer": "Η λημματοποίηση επιστρέφει τη γραμματική βασική μορφή της λέξης (λήμμα), ενώ το Stemming απλά κόβει καταλήξεις."
+  },
+  {
+    "question": "Η τεχνική Bag-of-Words λαμβάνει υπόψη τη σειρά των λέξεων μέσα στην πρόταση.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 219",
+      "paragraph": "Λίστα (Bag-of-Words)"
+    },
+    "right_answer": "Το Bag-of-Words αγνοεί τη σειρά των λέξεων και τη γραμματική δομή, εστιάζοντας μόνο στη συχνότητα εμφάνισης."
+  },
+  {
+    "question": "Το TF-IDF δίνει μεγαλύτερη σημασία σε λέξεις που εμφανίζονται σπάνια σε ολόκληρο το σύνολο κειμένων.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 219",
+      "paragraph": "Λίστα (TF-IDF)"
+    },
+    "right_answer": "Το TF-IDF ενισχύει τη βαρύτητα λέξεων που είναι μοναδικές για ένα κείμενο σε σχέση με το σύνολο."
+  },
+  {
+    "question": "Τα Word Embeddings, όπως το Word2Vec, τοποθετούν λέξεις με παρόμοιο νόημα κοντά σε έναν πολυδιάστατο χώρο.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 220",
+      "paragraph": "Λίστα (Word2Vec)"
+    },
+    "right_answer": "Τα Word Embeddings δημιουργούν διανυσματικές αναπαραστάσεις όπου σημασιολογικά συγγενείς λέξεις βρίσκονται κοντά."
+  },
+  {
+    "question": "Η Ανάλυση Συναισθήματος (Sentiment Analysis) κατηγοριοποιεί το κείμενο αποκλειστικά ως 'αληθές' ή 'ψευδές'.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 221",
+      "paragraph": "1η παράγραφος (Ανάλυση Συναισθήματος)"
+    },
+    "right_answer": "Η Ανάλυση Συναισθήματος κατηγοριοποιεί το κείμενο συνήθως ως θετικό, αρνητικό ή ουδέτερο."
+  },
+  {
+    "question": "Η Αναγνώριση Ονομαστικών Οντοτήτων (NER) εντοπίζει ονόματα προσώπων, τοποθεσιών και οργανισμών.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 222",
+      "paragraph": "Λίστα (NER)"
+    },
+    "right_answer": "Το NER στοχεύει στον εντοπισμό και την κατηγοριοποίηση συγκεκριμένων οντοτήτων μέσα στο κείμενο."
+  },
+  {
+    "question": "Τα Αναδρομικά Νευρωνικά Δίκτυα (RNNs) δεν έχουν καμία μορφή μνήμης.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 223",
+      "paragraph": "1η παράγραφος (RNN)"
+    },
+    "right_answer": "Τα RNNs διατηρούν εσωτερική μνήμη που τους επιτρέπει να επεξεργάζονται ακολουθίες δεδομένων."
+  },
+  {
+    "question": "Τα LSTM σχεδιάστηκαν για να λύσουν το πρόβλημα της εξαφάνισης της βαθμίδας (vanishing gradient problem).",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 223",
+      "paragraph": "2η παράγραφος (LSTM)"
+    },
+    "right_answer": "Τα LSTM χρησιμοποιούν μηχανισμούς ελέγχου (gates) για να διατηρούν πληροφορίες σε μεγάλες ακολουθίες, λύνοντας προβλήματα μνήμης."
+  },
+  {
+    "question": "Οι Μετασχηματιστές (Transformers) βασίζονται στον μηχανισμό της αυτοπροσοχής (self-attention).",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 223",
+      "paragraph": "3η παράγραφος (Transformers)"
+    },
+    "right_answer": "Ο μηχανισμός self-attention επιτρέπει στο μοντέλο να εστιάζει σε σημαντικές λέξεις ανεξαρτήτως της θέσης τους."
+  },
+  {
+    "question": "Το μοντέλο BERT διαβάζει το κείμενο μόνο από αριστερά προς τα δεξιά.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 224",
+      "paragraph": "Λίστα (BERT)"
+    },
+    "right_answer": "Το BERT είναι αμφίδρομο (Bidirectional), διαβάζοντας το κείμενο ταυτόχρονα προς τα εμπρός και προς τα πίσω."
+  },
+  {
+    "question": "Το GPT είναι μοντέλο που εξειδικεύεται στη δημιουργία κειμένου (language generation).",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 224",
+      "paragraph": "Λίστα (GPT)"
+    },
+    "right_answer": "Το GPT (Generative Pre-trained Transformer) είναι σχεδιασμένο για την παραγωγή φυσικής γλώσσας."
+  },
+  {
+    "question": "Η 'Κανονικοποίηση Κειμένου' περιλαμβάνει την προσθήκη σημείων στίξης για έμφαση.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 218",
+      "paragraph": "Λίστα (Κανονικοποίηση)"
+    },
+    "right_answer": "Η Κανονικοποίηση περιλαμβάνει συνήθως την αφαίρεση σημείων στίξης και τη μετατροπή σε πεζά."
+  },
+  {
+    "question": "Το FastText λαμβάνει υπόψη τα υποσυστήματα των λέξεων, όπως προθέματα και καταλήξεις.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 220",
+      "paragraph": "Λίστα (FastText)"
+    },
+    "right_answer": "Το FastText βελτιώνει το Word2Vec λαμβάνοντας υπόψη τη μορφολογία των λέξεων, χρήσιμο για γλώσσες όπως τα ελληνικά."
+  },
+  {
+    "question": "Τα chatbots χρησιμοποιούνται μόνο για την ψυχαγωγία των χρηστών.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 226",
+      "paragraph": "Λίστα (Chatbots)"
+    },
+    "right_answer": "Τα chatbots χρησιμοποιούνται ευρέως στην εξυπηρέτηση πελατών, κρατήσεις και τεχνική υποστήριξη."
+  },
+  {
+    "question": "Η Airbnb χρησιμοποιεί NLP για την αυτόματη μετάφραση περιγραφών σε πάνω από 60 γλώσσες.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 226",
+      "paragraph": "Λίστα (Μετάφραση)"
+    },
+    "right_answer": "Η Airbnb αξιοποιεί το NLP για να προσφέρει πολυγλωσσική υποστήριξη στους χρήστες της."
+  },
+  {
+    "question": "Η 'Αφαίρεση Λέξεων Κοινής Χρήσης' (Stopword Removal) αφαιρεί λέξεις όπως 'ο', 'η', 'και'.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 218",
+      "paragraph": "Λίστα (Stopword Removal)"
+    },
+    "right_answer": "Αφαιρεί λέξεις που δεν προσθέτουν ιδιαίτερη σημασία στο περιεχόμενο για να μειώσει τον θόρυβο."
+  },
+  {
+    "question": "Οι 'Contextualized Embeddings' αποδίδουν το ίδιο διάνυσμα σε μια λέξη ανεξάρτητα από τα συμφραζόμενα.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 220",
+      "paragraph": "Λίστα (Contextualized Embeddings)"
+    },
+    "right_answer": "Αντίθετα, αποδίδουν διαφορετικό διάνυσμα στην ίδια λέξη ανάλογα με το πλαίσιο (συμφραζόμενα) στο οποίο εμφανίζεται."
+  },
+  {
+    "question": "Η Viva Wallet χρησιμοποιεί chatbots για να αυξήσει τον φόρτο του τηλεφωνικού κέντρου.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 226",
+      "paragraph": "Λίστα (Chatbots)"
+    },
+    "right_answer": "Χρησιμοποιεί chatbots για να *μειώσει* τον φόρτο του τηλεφωνικού κέντρου."
+  },
+  {
+    "question": "Η Ταξινόμηση Κειμένου ανήκει συνήθως στην κατηγορία της Εποπτευόμενης Μάθησης.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 222",
+      "paragraph": "1η παράγραφος (Ταξινόμηση)"
+    },
+    "right_answer": "Γίνεται συνήθως με χρήση εποπτευόμενης μάθησης (supervised learning) και δεδομένα με ετικέτες."
+  },
+  {
+    "question": "Το μοντέλο GloVe χρησιμοποιεί μόνο τοπικές συσχετίσεις λέξεων.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 220",
+      "paragraph": "Λίστα (GloVe)"
+    },
+    "right_answer": "Το GloVe (Global Vectors) χρησιμοποιεί *παγκόσμιες* συσχετίσεις λέξεων σε ένα μεγάλο σύνολο κειμένων."
+  },
+  {
+    "question": "Τα Transformers υποστηρίζουν παράλληλη επεξεργασία δεδομένων.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 224",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Η δυνατότητα παράλληλης επεξεργασίας είναι ένα από τα βασικά πλεονεκτήματα των Transformers έναντι των RNN."
+  },
+  {
+    "question": "Το BERT είναι ιδανικό για εργασίες όπως η δημιουργία κειμένου (text generation).",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 224",
+      "paragraph": "Λίστα (BERT vs GPT)"
+    },
+    "right_answer": "Το BERT είναι ιδανικό για κατανόηση (π.χ. κατηγοριοποίηση), ενώ το GPT είναι αυτό που εστιάζει στη δημιουργία κειμένου."
+  },
+  {
+    "question": "Η προεπεξεργασία κειμένου είναι προαιρετική και σπάνια επηρεάζει την απόδοση του μοντέλου.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 219",
+      "paragraph": "Τελευταία παράγραφος (Προεπεξεργασία)"
+    },
+    "right_answer": "Η καλή προεπεξεργασία είναι καθοριστική για την επιτυχία κάθε μοντέλου επεξεργασίας φυσικής γλώσσας."
+  },
+  {
+    "question": "Η ελληνική γλώσσα παρουσιάζει ιδιαίτερες προκλήσεις στο NLP λόγω της πλούσιας μορφολογίας της.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 217",
+      "paragraph": "5η παράγραφος"
+    },
+    "right_answer": "Η επεξεργασία της ελληνικής γλώσσας έχει ιδιαιτερότητες λόγω γραμματικών και συντακτικών χαρακτηριστικών."
+  },
+  {
+    "question": "Οι 'Μηχανές Διανυσματικής Υποστήριξης' (SVMs) αναφέρονται ως μέθοδος διανυσματοποίησης κειμένου.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 219",
+      "paragraph": "Λίστα (Vectorization)"
+    },
+    "right_answer": "Τα SVMs είναι αλγόριθμοι μηχανικής μάθησης, όχι μέθοδοι διανυσματοποίησης (όπως το Bag-of-Words ή το Word2Vec)."
+  },
+  {
+    "question": "Το άρθρο “Attention is All You Need” εισήγαγε τα μοντέλα Transformers το 2017.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 223",
+      "paragraph": "3η παράγραφος (Transformers)"
+    },
+    "right_answer": "Το συγκεκριμένο άρθρο θεωρείται ορόσημο καθώς παρουσίασε την αρχιτεκτονική των Transformers."
+  },
+  {
+    "question": "Η ανάλυση συναισθήματος μπορεί να χρησιμοποιηθεί για την αξιολόγηση της φήμης ενός brand.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 226",
+      "paragraph": "Λίστα (Ανάλυση Φήμης)"
+    },
+    "right_answer": "Εταιρείες παρακολουθούν τα social media για να κατανοήσουν πώς αισθάνονται οι πελάτες για το brand τους."
+  },
+  {
+    "question": "Τα RNNs είναι πιο γρήγορα στην εκπαίδευση από τους Transformers.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 224",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Οι Transformers υπερτερούν στην ταχύτητα λόγω της δυνατότητας παράλληλης επεξεργασίας."
+  },
+  {
+    "question": "Η 'διαχείριση ειδικών συμβόλων' περιλαμβάνει τη μετατροπή emoticons σε κείμενο.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 219",
+      "paragraph": "Λίστα (Διαχείριση συμβόλων)"
+    },
+    "right_answer": "Π.χ., το σύμβολο :) μετατρέπεται σε '[χαμόγελο]' για να γίνει κατανοητό από το μοντέλο."
+  },
+  {
+    "question": "Το RoBERTa είναι μια παραλλαγή του μοντέλου GPT.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 224",
+      "paragraph": "Λίστα (Άλλα μοντέλα)"
+    },
+    "right_answer": "Το RoBERTa είναι παραλλαγή που βελτιώνει την απόδοση του BERT, όχι του GPT."
+  },
+  {
+    "question": "Η InterCom Services χρησιμοποίησε NLP για την αυτόματη ταξινόμηση αιτημάτων πελατών.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 229",
+      "paragraph": "Τίτλος 7.8"
+    },
+    "right_answer": "Η μελέτη περίπτωσης αφορά την ανάλυση κειμένων πελατών για αυτόματη ταξινόμηση."
+  },
+  {
+    "question": "Η αναζήτηση βάσει νοήματος (Semantic Search) επιστρέφει αποτελέσματα μόνο αν υπάρχουν ακριβείς λέξεις-κλειδιά.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 226-227",
+      "paragraph": "Λίστα (Αναζήτηση Νοήματος)"
+    },
+    "right_answer": "Η αναζήτηση βάσει νοήματος επιστρέφει συναφείς απαντήσεις κατανοώντας το νόημα, όχι μόνο λέξεις-κλειδιά."
+  },
+  {
+    "question": "Το stemming είναι πάντα πιο ακριβές από τη λημματοποίηση.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 218",
+      "paragraph": "Λίστα (Stemming/Lemmatization)"
+    },
+    "right_answer": "Το stemming είναι πιο απλό και γρήγορο, αλλά λιγότερο ακριβές από τη λημματοποίηση που λαμβάνει υπόψη τη γραμματική."
+  },
+  {
+    "question": "Η διανυσματοποίηση μετατρέπει τους αριθμούς σε λέξεις.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 219",
+      "paragraph": "1η παράγραφος (7.3)"
+    },
+    "right_answer": "Η διανυσματοποίηση μετατρέπει τις λέξεις σε αριθμούς (διανύσματα) για να τις επεξεργαστεί ο υπολογιστής."
+  },
+  {
+    "question": "Το mBERT είναι μια έκδοση του BERT εκπαιδευμένη σε πολλές γλώσσες.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 224",
+      "paragraph": "Λίστα (Άλλα μοντέλα)"
+    },
+    "right_answer": "Το mBERT (multilingual BERT) είναι σχεδιασμένο για πολυγλωσσικά περιβάλλοντα."
+  },
+  {
+    "question": "Οι αλγόριθμοι NLP δεν μπορούν να εντοπίσουν ορθογραφικά λάθη.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 218",
+      "paragraph": "Λίστα (Ορθογραφικός έλεγχος)"
+    },
+    "right_answer": "Ο ορθογραφικός έλεγχος και η διόρθωση είναι μέρος της προεπεξεργασίας κειμένου στο NLP."
+  },
+  {
+    "question": "Η μελέτη περίπτωσης της InterCom Services έδειξε ότι το NLP μείωσε την ανθρώπινη παρέμβαση.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 229",
+      "paragraph": "Context (συνάγεται από τίτλο και θέμα)"
+    },
+    "right_answer": "Η αυτόματη ταξινόμηση αιτημάτων μειώνει την ανάγκη για χειροκίνητη διαλογή."
+  },
+  {
+    "question": "Τα chatbots που βασίζονται σε κανόνες είναι πιο ευέλικτα από αυτά που χρησιμοποιούν AI.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 135",
+      "paragraph": "Λίστα (Συνδυασμός Συμβολικής - αναδρομή)"
+    },
+    "right_answer": "Τα συστήματα βάσει κανόνων είναι λιγότερο ευέλικτα από τα μοντέλα βαθιάς μάθησης που κατανοούν φυσική γλώσσα."
+  },
+  {
+    "question": "Η ανάλυση συναισθήματος μπορεί να χαρακτηρίσει ένα κείμενο ως 'ουδέτερο'.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 221",
+      "paragraph": "1η παράγραφος (Ανάλυση Συναισθήματος)"
+    },
+    "right_answer": "Εντοπίζει το συναίσθημα ως θετικό, αρνητικό ή ουδέτερο."
+  },
+  {
+    "question": "Το ELMo είναι παράδειγμα στατικού Word Embedding.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 220",
+      "paragraph": "Λίστα (Contextualized Embeddings)"
+    },
+    "right_answer": "Το ELMo ανήκει στα Contextualized Embeddings, όπου η αναπαράσταση αλλάζει ανάλογα με τα συμφραζόμενα."
+  },
+  {
+    "question": "Η Airbnb χρησιμοποιεί NLP μόνο για την αγγλική γλώσσα.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 226",
+      "paragraph": "Λίστα (Μετάφραση)"
+    },
+    "right_answer": "Χρησιμοποιεί NLP για μετάφραση σε περισσότερες από 60 γλώσσες."
+  },
+  {
+    "question": "Το GPT μπορεί να χρησιμοποιηθεί για την αυτόματη δημιουργία περιλήψεων.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 224",
+      "paragraph": "Λίστα (GPT)"
+    },
+    "right_answer": "Χρησιμοποιείται για συγγραφή κειμένων και αυτόματες περιλήψεις."
+  },
+  {
+    "question": "Τα σύγχρονα συστήματα NER μπορούν να αναγνωρίσουν οντότητες ακόμη και σε πολύπλοκα συμφραζόμενα.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 222",
+      "paragraph": "Τελευταία παράγραφος (NER)"
+    },
+    "right_answer": "Οι μετασχηματιστές επιτρέπουν την αναγνώριση οντοτήτων σε δύσκολα και ασαφή πλαίσια."
+  },
+  {
+    "question": "Η 'Εξόρυξη Πληροφορίας' δεν σχετίζεται με την Επεξεργασία Φυσικής Γλώσσας.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 226-227",
+      "paragraph": "Λίστα (Αναζήτηση Νοήματος)"
+    },
+    "right_answer": "Η Εξόρυξη Πληροφορίας είναι βασική εφαρμογή του NLP για τον εντοπισμό δεδομένων σε κείμενα."
+  },
+  {
+    "question": "Το μοντέλο T5 είναι μια παραλλαγή των Transformers.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 224",
+      "paragraph": "Λίστα (Άλλα μοντέλα)"
+    },
+    "right_answer": "Το T5 (Text-to-Text Transfer Transformer) είναι ένα από τα εξελιγμένα μοντέλα της οικογένειας αυτής."
+  },
+  {
+    "question": "Η 'κανονικοποίηση' μετατρέπει τους χαρακτήρες σε κεφαλαία.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 218",
+      "paragraph": "Λίστα (Κανονικοποίηση)"
+    },
+    "right_answer": "Η κανονικοποίηση μετατρέπει τους χαρακτήρες σε *πεζά* (μικρά), όχι κεφαλαία."
+  },
+  {
+    "question": "Οι ψηφιακοί βοηθοί όπως η Siri βασίζονται σε τεχνολογίες NLP.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 217",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Οι ψηφιακοί βοηθοί είναι κλασικό παράδειγμα εφαρμογής της Επεξεργασίας Φυσικής Γλώσσας."
+  },
+  {
+    "question": "Η προεπεξεργασία κειμένου αφαιρεί πάντα τους αριθμούς από το κείμενο.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 218",
+      "paragraph": "Λίστα (Κανονικοποίηση)"
+    },
+    "right_answer": "Όχι πάντα. Η αφαίρεση αριθμών γίνεται κατά την κανονικοποίηση, αλλά εξαρτάται από την εφαρμογή (π.χ. αν οι αριθμοί είναι σημαντικοί για την έννοια)."
+  },
+  {
+    "question": "Η ταξινόμηση email ως 'spam' είναι παράδειγμα ταξινόμησης κειμένου.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 222",
+      "paragraph": "Λίστα (Ταξινόμηση Κειμένου)"
+    },
+    "right_answer": "Είναι το πιο χαρακτηριστικό παράδειγμα εφαρμογής της ταξινόμησης κειμένου."
+  },
+  {
+    "question": "Τα Word Embeddings δεν μπορούν να συλλάβουν τη σχέση μεταξύ 'βασιλιάς' και 'βασίλισσα'.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 220",
+      "paragraph": "Λίστα (Word2Vec)"
+    },
+    "right_answer": "Το Word2Vec είναι διάσημο ακριβώς για την ικανότητά του να συλλαμβάνει τέτοιες αναλογίες."
+  },
+  {
+    "question": "Η 'Αυτοπροσοχή' (Self-Attention) επιτρέπει στο μοντέλο να κατανοεί τη σχέση λέξεων που απέχουν πολύ μεταξύ τους.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 223",
+      "paragraph": "3η παράγραφος (Transformers)"
+    },
+    "right_answer": "Επιτρέπει τον εντοπισμό συσχετίσεων ανεξαρτήτως της απόστασης των λέξεων στην πρόταση."
+  },
+  {
+    "question": "Τα RNNs δεν αντιμετωπίζουν ποτέ πρόβλημα με τη διατήρηση πληροφοριών από μακρινά σημεία.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 223",
+      "paragraph": "1η παράγραφος (RNN)"
+    },
+    "right_answer": "Αντιμετωπίζουν το 'vanishing gradient problem', δυσκολευόμενα να διατηρήσουν μακρινές πληροφορίες."
+  },
+  {
+    "question": "Η Επεξεργασία Φυσικής Γλώσσας γεφυρώνει το χάσμα μεταξύ δομημένων δεδομένων και ανθρώπινης επικοινωνίας.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 217",
+      "paragraph": "3η παράγραφος"
+    },
+    "right_answer": "Σκοπός της είναι να κάνει την ασαφή ανθρώπινη γλώσσα κατανοητή για τους υπολογιστές."
+  },
+  {
+    "question": "Το ChatGPT βασίζεται στην αρχιτεκτονική των Transformers.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 225",
+      "paragraph": "Κάτω από εικόνα"
+    },
+    "right_answer": "Αναφέρεται ρητά ότι μοντέλα όπως το ChatGPT βασίζονται σε αρχιτεκτονικές Transformers (BERT, GPT)."
+  },
+  {
+    "question": "Η ανάλυση συναισθήματος χρησιμοποιείται μόνο για κείμενα στην αγγλική γλώσσα.",
+    "answer": false,
+    "chapter_number": 7,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 217",
+      "paragraph": "5η παράγραφος"
+    },
+    "right_answer": "Η ανάλυση συναισθήματος και το NLP εφαρμόζονται σε πολλές γλώσσες, συμπεριλαμβανομένης της ελληνικής."
+  },
+  {
+    "question": "Τα μοντέλα BERT και GPT είναι παραδείγματα 'Προεκπαιδευμένων Γλωσσικών Μοντέλων'.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 224",
+      "paragraph": "7.5.4"
+    },
+    "right_answer": "Ανήκουν στην κατηγορία των Pretrained Language Models που μαθαίνουν από μεγάλα σύνολα δεδομένων."
+  },
+  {
+    "question": "Η 'εξόρυξη άποψης' (opinion mining) είναι άλλο όνομα για την ανάλυση συναισθήματος.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 221",
+      "paragraph": "1η παράγραφος (Ανάλυση Συναισθήματος - context)"
+    },
+    "right_answer": "Αν και δεν αναφέρεται ρητά ο όρος, η διαδικασία περιγράφεται ως εντοπισμός και κατηγοριοποίηση συναισθήματος/άποψης."
+  },
+  {
+    "question": "Το 'kalispera :)' μετατρέπεται σε 'καλησπέρα [χαμόγελο]' κατά την κανονικοποίηση.",
+    "answer": true,
+    "chapter_number": 7,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 219",
+      "paragraph": "Λίστα (Διαχείριση ειδικών συμβόλων)"
+    },
+    "right_answer": "Είναι παράδειγμα διαχείρισης ειδικών συμβόλων και greeklish κατά την προεπεξεργασία."
+  }
+]

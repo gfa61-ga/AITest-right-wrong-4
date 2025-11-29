@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI true-false Quiz - gemini 3 Pro - final</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🤖 AI true-false Quiz - gemini 3 Pro - final</h1>
+      <p class="subtitle">Επιλέξτε κεφάλαιο για να ξεκινήσετε το τεστ</p>
+    </header>
+
+    <div class="tabs">
+      <button class="tab-button active" onclick="switchTab('chapters')">📚 Κατά Κεφάλαιο</button>
+      <button class="tab-button" onclick="switchTab('random')">🎲 Τυχαίες Ερωτήσεις</button>
+    </div>
+
+    <!-- Tab 1: Chapters -->
+    <div id="chapters-tab" class="tab-content active">
+      <div class="chapters-grid" id="chapters-container"></div>
+    </div>
+
+    <!-- Tab 2: Random Quizzes -->
+    <div id="random-tab" class="tab-content">
+      <div class="random-options">
+        <div class="option-card" onclick="show20QuestionSelector()">
+          <div class="option-icon">🎯</div>
+          <div class="option-title">20 Τυχαίες Ερωτήσεις</div>
+          <div class="option-description">Ανά κεφάλαιο - Επιλέξτε κεφάλαιο</div>
+          <div class="option-details">Επιλογή κεφαλαίου →</div>
+        </div>
+
+        <div class="option-card" onclick="startRandomQuiz(60)">
+          <div class="option-icon">🌟</div>
+          <div class="option-title">60 Τυχαίες Ερωτήσεις</div>
+          <div class="option-description">Από όλα τα κεφάλαια - Ισοσταθμισμένη κατανομή</div>
+          <div class="option-details">Πολύ Δύσκολο</div>
+        </div>
+      </div>
+
+      <!-- Modal για επιλογή κεφαλαίου -->
+      <div id="chapter-selector-modal" class="modal hidden">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2>Επιλέξτε κεφάλαιο</h2>
+            <button class="close-btn" onclick="closeChapterSelector()">&times;</button>
+          </div>
+          <div class="modal-body">
+            <div class="chapter-selector-grid" id="chapter-selector-grid"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

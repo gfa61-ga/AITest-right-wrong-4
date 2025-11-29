@@ -1,0 +1,662 @@
+[
+  {
+    "question": "Ο όρος 'Μεγάλα Δεδομένα' (Big Data) αναφέρεται μόνο στον μεγάλο όγκο πληροφοριών.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 292",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Τα Μεγάλα Δεδομένα χαρακτηρίζονται από πέντε ιδιότητες (τα 5 V): Όγκο, Ταχύτητα, Ποικιλία, Αξία και Ακρίβεια."
+  },
+  {
+    "question": "Η 'Ταχύτητα' (Velocity) στα Big Data αφορά το πόσο γρήγορα παράγονται και μεταδίδονται τα δεδομένα.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 293",
+      "paragraph": "Λίστα (Velocity)"
+    },
+    "right_answer": "Αφορά τον ρυθμό με τον οποίο δημιουργούνται και κινούνται τα δεδομένα, π.χ. σε πραγματικό χρόνο."
+  },
+  {
+    "question": "Τα 'Αδόμητα Δεδομένα' (Unstructured Data) οργανώνονται εύκολα σε πίνακες και βάσεις δεδομένων.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 293",
+      "paragraph": "Λίστα (Ποικιλία/Variety)"
+    },
+    "right_answer": "Τα αδόμητα δεδομένα (π.χ. βίντεο, εικόνες, κείμενο) δεν έχουν σταθερή δομή και είναι δύσκολο να οργανωθούν σε πίνακες."
+  },
+  {
+    "question": "Η 'Αξία' (Value) θεωρείται το πιο σημαντικό από τα 5 V των Μεγάλων Δεδομένων.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 293",
+      "paragraph": "Λίστα (Value)"
+    },
+    "right_answer": "Χωρίς την εξαγωγή αξίας και χρήσιμης πληροφορίας, ο όγκος των δεδομένων είναι άχρηστος."
+  },
+  {
+    "question": "Το Hadoop είναι λογισμικό ανοικτού κώδικα για την αποθήκευση και επεξεργασία μεγάλων δεδομένων.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 296",
+      "paragraph": "Λίστα (Hadoop)"
+    },
+    "right_answer": "Είναι πλαίσιο λογισμικού που επιτρέπει την κατανεμημένη επεξεργασία μεγάλων συνόλων δεδομένων."
+  },
+  {
+    "question": "Το MapReduce είναι αλγόριθμος που επεξεργάζεται τα δεδομένα σε έναν κεντρικό υπολογιστή.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 296",
+      "paragraph": "Λίστα (MapReduce)"
+    },
+    "right_answer": "Το MapReduce κατανέμει την επεξεργασία σε πολλούς κόμβους (υπολογιστές) παράλληλα."
+  },
+  {
+    "question": "Η Apache Spark είναι πιο αργή από το Hadoop MapReduce.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 297",
+      "paragraph": "Λίστα (Apache Spark)"
+    },
+    "right_answer": "Η Spark είναι σχεδιασμένη για ταχύτητα και εκτελεί επεξεργασία στη μνήμη (in-memory), κάνοντάς την πολύ πιο γρήγορη."
+  },
+  {
+    "question": "Οι βάσεις δεδομένων NoSQL είναι ιδανικές για αποθήκευση αδόμητων δεδομένων.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 297",
+      "paragraph": "Λίστα (NoSQL)"
+    },
+    "right_answer": "Προσφέρουν ευελιξία στην αποθήκευση δεδομένων χωρίς αυστηρό σχήμα (schema)."
+  },
+  {
+    "question": "Η 'Ακρίβεια' (Veracity) αναφέρεται στην αξιοπιστία και την ποιότητα των δεδομένων.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 293",
+      "paragraph": "Λίστα (Veracity)"
+    },
+    "right_answer": "Αφορά το κατά πόσο τα δεδομένα είναι ακριβή και αξιόπιστα για λήψη αποφάσεων."
+  },
+  {
+    "question": "Η οπτικοποίηση δεδομένων (Data Visualization) δεν βοηθά στην κατανόηση των Big Data.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 298",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Η οπτικοποίηση είναι κρίσιμη για την παρουσίαση σύνθετων δεδομένων με κατανοητό τρόπο."
+  },
+  {
+    "question": "Το Tableau είναι εργαλείο οπτικοποίησης δεδομένων.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 298",
+      "paragraph": "Λίστα (Tableau)"
+    },
+    "right_answer": "Είναι ένα από τα δημοφιλέστερα εργαλεία για τη δημιουργία διαδραστικών γραφημάτων."
+  },
+  {
+    "question": "Η Τεχνητή Νοημοσύνη δεν μπορεί να βοηθήσει στον καθαρισμό των Μεγάλων Δεδομένων.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 295",
+      "paragraph": "2η παράγραφος (Επεξεργασία)"
+    },
+    "right_answer": "Η ΤΝ αυτοματοποιεί τον εντοπισμό σφαλμάτων και τον καθαρισμό δεδομένων, βελτιώνοντας την ποιότητα."
+  },
+  {
+    "question": "Η ανάλυση συναισθήματος (Sentiment Analysis) είναι εφαρμογή ΤΝ στα Μεγάλα Δεδομένα.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 299",
+      "paragraph": "Λίστα (Marketing)"
+    },
+    "right_answer": "Χρησιμοποιείται για την ανάλυση κειμένων από social media και την κατανόηση της άποψης του κοινού."
+  },
+  {
+    "question": "Στον τομέα της Υγείας, τα Big Data χρησιμοποιούνται για την πρόβλεψη επιδημιών.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 299",
+      "paragraph": "Λίστα (Υγεία)"
+    },
+    "right_answer": "Η ανάλυση μεγάλων συνόλων ιατρικών δεδομένων βοηθά στον εντοπισμό τάσεων και την πρόβλεψη εξάπλωσης ασθενειών."
+  },
+  {
+    "question": "Η διακυβέρνηση δεδομένων (Data Governance) αφορά μόνο την ασφάλεια των σέρβερ.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 301",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Περιλαμβάνει πολιτικές, πρότυπα και διαδικασίες για τη διασφάλιση της ποιότητας, της ακεραιότητας και της νομιμότητας των δεδομένων."
+  },
+  {
+    "question": "Ο Γενικός Κανονισμός Προστασίας Δεδομένων (GDPR) ισχύει στις ΗΠΑ.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 301",
+      "paragraph": "3η παράγραφος (Ρυθμιστικά πλαίσια)"
+    },
+    "right_answer": "Ο GDPR είναι κανονισμός της Ευρωπαϊκής Ένωσης."
+  },
+  {
+    "question": "Η 'ανωνυμοποίηση' (anonymization) αφαιρεί τα προσωπικά στοιχεία ταυτοποίησης από τα δεδομένα.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 300",
+      "paragraph": "1η παράγραφος (Απόρρητο)"
+    },
+    "right_answer": "Είναι τεχνική προστασίας της ιδιωτικότητας που καθιστά αδύνατη την ταυτοποίηση ατόμων."
+  },
+  {
+    "question": "Η προγνωστική συντήρηση (predictive maintenance) στη βιομηχανία βασίζεται σε ιστορικά δεδομένα.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 300",
+      "paragraph": "Λίστα (Βιομηχανία)"
+    },
+    "right_answer": "Αναλύει δεδομένα από αισθητήρες για να προβλέψει πότε θα συμβεί βλάβη στον εξοπλισμό."
+  },
+  {
+    "question": "Τα Smart Cities χρησιμοποιούν Big Data για τη βελτιστοποίηση της κυκλοφορίας.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 303",
+      "paragraph": "Μελέτη Περίπτωσης"
+    },
+    "right_answer": "Η μελέτη περίπτωσης αναφέρει τη χρήση δεδομένων για τη διαχείριση της πόλης, συμπεριλαμβανομένης της κυκλοφορίας."
+  },
+  {
+    "question": "Η 'συγκατάθεση' (consent) του χρήστη δεν είναι απαραίτητη για τη συλλογή προσωπικών δεδομένων.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 300",
+      "paragraph": "1η παράγραφος (Συναίνεση)"
+    },
+    "right_answer": "Η ρητή και ενημερωμένη συγκατάθεση είναι θεμελιώδης αρχή για τη νόμιμη επεξεργασία προσωπικών δεδομένων."
+  },
+  {
+    "question": "Η μελέτη περίπτωσης στην Τοπική Αυτοδιοίκηση (σελ. 303) αφορούσε τη διαχείριση υδάτινων πόρων.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 303",
+      "paragraph": "Context Μελέτης"
+    },
+    "right_answer": "Αφορούσε κυρίως τη διαχείριση απορριμμάτων και την κυκλοφορία (Smart City)."
+  },
+  {
+    "question": "Οι έξυπνοι κάδοι απορριμμάτων διαθέτουν αισθητήρες πληρότητας.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 304",
+      "paragraph": "Λίστα (Smart Waste)"
+    },
+    "right_answer": "Οι αισθητήρες ενημερώνουν το κέντρο ελέγχου όταν ο κάδος γεμίσει για να δρομολογηθεί απορριμματοφόρο."
+  },
+  {
+    "question": "Η χρήση Big Data στην Τοπική Αυτοδιοίκηση αύξησε το κόστος αποκομιδής απορριμμάτων.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 305",
+      "paragraph": "1η παράγραφος (Αποτελέσματα)"
+    },
+    "right_answer": "Η βελτιστοποίηση των δρομολογίων οδήγησε σε μείωση του κόστους καυσίμων και συντήρησης."
+  },
+  {
+    "question": "Τα δεδομένα 'Clickstream' προέρχονται από την καταγραφή κινήσεων του ποντικιού και κλικ σε ιστοσελίδες.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 292",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Είναι δεδομένα που καταγράφουν τη συμπεριφορά των χρηστών στο διαδίκτυο."
+  },
+  {
+    "question": "Η 'εξόρυξη δεδομένων' (Data Mining) αναζητά μοτίβα σε μικρά σύνολα δεδομένων.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 295",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Η εξόρυξη δεδομένων εστιάζει στην ανακάλυψη προτύπων σε *μεγάλα* σύνολα δεδομένων."
+  },
+  {
+    "question": "Το Power BI είναι ανταγωνιστικό προϊόν του Tableau.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 298",
+      "paragraph": "Λίστα (Power BI)"
+    },
+    "right_answer": "Και τα δύο είναι κορυφαία εργαλεία επιχειρηματικής ευφυΐας και οπτικοποίησης."
+  },
+  {
+    "question": "Η 'Ποικιλία' (Variety) σημαίνει ότι τα δεδομένα προέρχονται από μία μόνο πηγή.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 293",
+      "paragraph": "Λίστα (Variety)"
+    },
+    "right_answer": "Σημαίνει ότι τα δεδομένα είναι ετερογενή και προέρχονται από πολλές διαφορετικές πηγές και μορφές."
+  },
+  {
+    "question": "Τα συστήματα συστάσεων (Recommender Systems) βασίζονται στην ανάλυση ιστορικών δεδομένων αγορών.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 299",
+      "paragraph": "Λίστα (Εμπορικές εφαρμογές)"
+    },
+    "right_answer": "Χρησιμοποιούν το ιστορικό του χρήστη για να προτείνουν σχετικά προϊόντα."
+  },
+  {
+    "question": "Η 'ψευδωνυμοποίηση' είναι το ίδιο με την 'ανωνυμοποίηση'.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 300",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Η ψευδωνυμοποίηση επιτρέπει την επαναταυτοποίηση με χρήση κλειδιού, ενώ η ανωνυμοποίηση είναι μη αναστρέψιμη."
+  },
+  {
+    "question": "Η επεξεργασία φυσικής γλώσσας (NLP) βοηθά στην ανάλυση αδόμητων κειμένων.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 295",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Είναι βασική τεχνική για την εξαγωγή νοήματος από κείμενα, emails και social media."
+  },
+  {
+    "question": "Τα Big Data δεν έχουν εφαρμογή στον Δημόσιο Τομέα.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 299",
+      "paragraph": "Λίστα (Δημόσιος Τομέας)"
+    },
+    "right_answer": "Χρησιμοποιούνται για τη βελτίωση υπηρεσιών, τη φορολογική συμμόρφωση και τον πολεοδομικό σχεδιασμό."
+  },
+  {
+    "question": "Η πλατφόρμα MongoDB είναι παράδειγμα βάσης δεδομένων SQL.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 297",
+      "paragraph": "Λίστα (NoSQL)"
+    },
+    "right_answer": "Η MongoDB είναι η πιο δημοφιλής *NoSQL* βάση δεδομένων (document-oriented)."
+  },
+  {
+    "question": "Η 'Κλιμακωσιμότητα' (Scalability) είναι κρίσιμη για τις υποδομές Big Data.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 296",
+      "paragraph": "1η παράγραφος (Υποδομές)"
+    },
+    "right_answer": "Τα συστήματα πρέπει να μπορούν να επεκτείνονται εύκολα καθώς ο όγκος των δεδομένων αυξάνεται."
+  },
+  {
+    "question": "Η ανάλυση δεδομένων σε πραγματικό χρόνο απαιτεί χαμηλή ταχύτητα επεξεργασίας.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 293",
+      "paragraph": "Λίστα (Velocity)"
+    },
+    "right_answer": "Απαιτεί εξαιρετικά υψηλή ταχύτητα για να είναι χρήσιμη η πληροφορία τη στιγμή που παράγεται."
+  },
+  {
+    "question": "Οι αλγόριθμοι μηχανικής μάθησης μπορούν να εντοπίσουν απάτες σε τραπεζικές συναλλαγές.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 299",
+      "paragraph": "Λίστα (Χρηματοοικονομικά)"
+    },
+    "right_answer": "Η ανίχνευση μοτίβων απάτης σε πραγματικό χρόνο είναι κλασική εφαρμογή της ΤΝ στα χρηματοοικονομικά."
+  },
+  {
+    "question": "Τα δεδομένα GPS από κινητά τηλέφωνα θεωρούνται δομημένα δεδομένα.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 293",
+      "paragraph": "Λίστα (Variety)"
+    },
+    "right_answer": "Συχνά θεωρούνται ημι-δομημένα ή αδόμητα αν δεν είναι οργανωμένα, αν και περιέχουν συντεταγμένες."
+  },
+  {
+    "question": "Η διαφάνεια στη χρήση δεδομένων ενισχύει την εμπιστοσύνη των πολιτών.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 301",
+      "paragraph": "2η παράγραφος (Ευθύνη)"
+    },
+    "right_answer": "Η ανοιχτή επικοινωνία για το πώς χρησιμοποιούνται τα δεδομένα είναι κλειδί για την αποδοχή."
+  },
+  {
+    "question": "Η βιβλιοθήκη TensorFlow αναπτύχθηκε από το Facebook.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 297",
+      "paragraph": "Λίστα (TensorFlow)"
+    },
+    "right_answer": "Η TensorFlow αναπτύχθηκε από την Google."
+  },
+  {
+    "question": "Το PyTorch είναι βιβλιοθήκη μηχανικής μάθησης ανοικτού κώδικα.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 297",
+      "paragraph": "Λίστα (PyTorch)"
+    },
+    "right_answer": "Είναι δημοφιλής βιβλιοθήκη για βαθιά μάθηση, αναπτυγμένη από το Facebook."
+  },
+  {
+    "question": "Στη μελέτη περίπτωσης Smart City, οι πολίτες δεν είχαν πρόσβαση σε πληροφορίες κυκλοφορίας.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 304",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Οι πολίτες ενημερώνονταν σε πραγματικό χρόνο μέσω εφαρμογής για την κίνηση και τις θέσεις στάθμευσης."
+  },
+  {
+    "question": "Η χρήση drone για επιτήρηση μπορεί να εγείρει ζητήματα ιδιωτικότητας.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 300",
+      "paragraph": "Τελευταία παράγραφος"
+    },
+    "right_answer": "Η συλλογή εικόνων από δημόσιους χώρους πρέπει να σέβεται τα προσωπικά δεδομένα."
+  },
+  {
+    "question": "Η 'Επεξεργασία Ροής' (Stream Processing) αναλύει δεδομένα που είναι αποθηκευμένα στον σκληρό δίσκο.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 296",
+      "paragraph": "Λίστα (Batch vs Stream)"
+    },
+    "right_answer": "Η Επεξεργασία Ροής αναλύει δεδομένα *εν κινήσει*, πριν αποθηκευτούν."
+  },
+  {
+    "question": "Η μείωση του περιβαλλοντικού αποτυπώματος ήταν στόχος της Smart City στη μελέτη περίπτωσης.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 305",
+      "paragraph": "1η παράγραφος (Αποτελέσματα)"
+    },
+    "right_answer": "Η μείωση των εκπομπών CO2 μέσω βελτιστοποίησης δρομολογίων ήταν βασικό αποτέλεσμα."
+  },
+  {
+    "question": "Οι αλγόριθμοι ομαδοποίησης (Clustering) χρησιμοποιούνται για την κατηγοριοποίηση πελατών.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 299",
+      "paragraph": "Λίστα (Marketing)"
+    },
+    "right_answer": "Βοηθούν στον εντοπισμό ομάδων πελατών με κοινά χαρακτηριστικά για στοχευμένο μάρκετινγκ."
+  },
+  {
+    "question": "Η 'Δομημένη' πληροφορία είναι πιο δύσκολη στην επεξεργασία από την 'Αδόμητη'.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 293",
+      "paragraph": "Λίστα (Variety)"
+    },
+    "right_answer": "Η δομημένη πληροφορία είναι πιο εύκολη, καθώς είναι οργανωμένη και έτοιμη για ανάλυση."
+  },
+  {
+    "question": "Το Kafka είναι πλατφόρμα για τη διαχείριση ροών δεδομένων σε πραγματικό χρόνο.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 296",
+      "paragraph": "Λίστα (Εργαλεία Stream)"
+    },
+    "right_answer": "Το Apache Kafka χρησιμοποιείται ευρέως για την επεξεργασία data pipelines."
+  },
+  {
+    "question": "Τα Μεγάλα Δεδομένα επιτρέπουν την πλήρη εξάλειψη της αβεβαιότητας στη λήψη αποφάσεων.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 294",
+      "paragraph": "Τελευταία παράγραφος (Ρόλος)"
+    },
+    "right_answer": "Μειώνουν την αβεβαιότητα, αλλά δεν την εξαλείφουν πλήρως, καθώς πάντα υπάρχουν αστάθμητοι παράγοντες."
+  },
+  {
+    "question": "Η 'υπευθυνότητα' (accountability) είναι αρχή της διακυβέρνησης δεδομένων.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 301",
+      "paragraph": "Λίστα (Αρχές)"
+    },
+    "right_answer": "Οι οργανισμοί πρέπει να είναι υπόλογοι για τον τρόπο που διαχειρίζονται τα δεδομένα."
+  },
+  {
+    "question": "Η ανάλυση δεδομένων κυκλοφορίας μπορεί να μειώσει την κυκλοφοριακή συμφόρηση.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 304",
+      "paragraph": "Λίστα (Έξυπνη Κυκλοφορία)"
+    },
+    "right_answer": "Η ρύθμιση φαναριών βάσει δεδομένων βελτιώνει τη ροή των οχημάτων."
+  },
+  {
+    "question": "Τα cookies δεν αποτελούν πηγή δεδομένων για το ψηφιακό μάρκετινγκ.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 300",
+      "paragraph": "Context (Ιδιωτικότητα)"
+    },
+    "right_answer": "Τα cookies είναι βασικό εργαλείο παρακολούθησης συμπεριφοράς χρηστών."
+  },
+  {
+    "question": "Η Keras είναι βιβλιοθήκη που τρέχει πάνω από το TensorFlow.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 297",
+      "paragraph": "Λίστα (Keras)"
+    },
+    "right_answer": "Παρέχει ένα πιο φιλικό API για την κατασκευή νευρωνικών δικτύων."
+  },
+  {
+    "question": "Η οπτικοποίηση δεδομένων περιορίζεται σε ραβδογράμματα και πίτες.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 298",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Περιλαμβάνει χάρτες, διαγράμματα διασποράς, heatmaps και σύνθετες διαδραστικές αναπαραστάσεις."
+  },
+  {
+    "question": "Η αξιοποίηση των Big Data απαιτεί εξειδικευμένο προσωπικό (Data Scientists).",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 294",
+      "paragraph": "Context"
+    },
+    "right_answer": "Η πολυπλοκότητα των εργαλείων και των αλγορίθμων απαιτεί εξειδικευμένες γνώσεις."
+  },
+  {
+    "question": "Η 'Κρυπτογράφηση' (Encryption) δεν προστατεύει τα δεδομένα από υποκλοπή.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 301",
+      "paragraph": "Λίστα (Ασφάλεια)"
+    },
+    "right_answer": "Η κρυπτογράφηση είναι βασική μέθοδος προστασίας δεδομένων κατά τη μετάδοση και αποθήκευση."
+  },
+  {
+    "question": "Η μελέτη περίπτωσης έδειξε ότι η συμμετοχή των πολιτών είναι αδιάφορη για την επιτυχία μιας Smart City.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 305",
+      "paragraph": "Συμπεράσματα"
+    },
+    "right_answer": "Η ενεργή συμμετοχή και η αποδοχή από τους πολίτες αναφέρονται ως κρίσιμοι παράγοντες επιτυχίας."
+  },
+  {
+    "question": "Το Scikit-learn είναι βιβλιοθήκη για την Python.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 297",
+      "paragraph": "Λίστα (Scikit-learn)"
+    },
+    "right_answer": "Είναι η πιο δημοφιλής βιβλιοθήκη για κλασικούς αλγόριθμους μηχανικής μάθησης στην Python."
+  },
+  {
+    "question": "Η ανάλυση 'batch' επεξεργάζεται τα δεδομένα αμέσως μόλις φτάσουν.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 296",
+      "paragraph": "Λίστα (Batch processing)"
+    },
+    "right_answer": "Η ανάλυση batch επεξεργάζεται τα δεδομένα σε *παρτίδες* σε τακτά χρονικά διαστήματα, όχι αμέσως."
+  },
+  {
+    "question": "Οι 'έξυπνοι μετρητές' (smart meters) καταγράφουν την κατανάλωση ενέργειας.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 300",
+      "paragraph": "Λίστα (Ενέργεια)"
+    },
+    "right_answer": "Επιτρέπουν την παρακολούθηση της κατανάλωσης σε πραγματικό χρόνο για καλύτερη διαχείριση δικτύου."
+  },
+  {
+    "question": "Τα Big Data Analytics δεν μπορούν να προβλέψουν τη συμπεριφορά των καταναλωτών.",
+    "answer": false,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 299",
+      "paragraph": "Λίστα (Marketing)"
+    },
+    "right_answer": "Η πρόβλεψη αγοραστικής συμπεριφοράς είναι μία από τις κύριες χρήσεις τους στο μάρκετινγκ."
+  },
+  {
+    "question": "Η υποδομή νέφους (Cloud Computing) διευκολύνει την αποθήκευση Μεγάλων Δεδομένων.",
+    "answer": true,
+    "chapter_number": 11,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 296",
+      "paragraph": "1η παράγραφος (Υποδομές)"
+    },
+    "right_answer": "Το Cloud παρέχει επεκτάσιμους πόρους αποθήκευσης χωρίς την ανάγκη για ακριβό τοπικό hardware."
+  }
+]

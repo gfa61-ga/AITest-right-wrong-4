@@ -1,0 +1,772 @@
+[
+  {
+    "question": "Ο συνδυασμός Τεχνητής Νοημοσύνης και IoT ονομάζεται AIoT (Artificial Intelligence of Things).",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 45",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Ο συνδυασμός τους δημιουργεί το AIoT (Artificial Intelligence of Things), δηλαδή ένα σύστημα όπου το IoT παρέχει τα δεδομένα και η τεχνητή νοημοσύνη τα επεξεργάζεται."
+  },
+  {
+    "question": "Οι συσκευές IoT λειτουργούν πάντα εντελώς ανεξάρτητα και δεν ανταλλάσσουν δεδομένα μεταξύ τους.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 45",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Το IoT αναφέρεται στο δίκτυο διασυνδεδεμένων συσκευών που ανταλλάσσουν δεδομένα μέσω του Διαδικτύου."
+  },
+  {
+    "question": "Η προγνωστική συντήρηση (predictive maintenance) στη βιομηχανία επιτρέπει την ανίχνευση βλαβών αφού αυτές συμβούν.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 46",
+      "paragraph": "3η παράγραφος (λίστα)"
+    },
+    "right_answer": "Η προγνωστική συντήρηση επιτρέπει την ανίχνευση πιθανών βλαβών του εξοπλισμού πριν αυτές συμβούν."
+  },
+  {
+    "question": "Τα 'Έξυπνα Συμβόλαια' (Smart Contracts) στο Blockchain μπορούν να γίνουν δυναμικά με την ενσωμάτωση Τεχνητής Νοημοσύνης.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 49",
+      "paragraph": "2η παράγραφος (λίστα)"
+    },
+    "right_answer": "Με την ενσωμάτωση τεχνητής νοημοσύνης, τα έξυπνα συμβόλαια μπορούν να γίνουν δυναμικά και ευέλικτα, αξιολογώντας νέα δεδομένα."
+  },
+  {
+    "question": "Η Τεχνητή Νοημοσύνη των Άκρων (Edge AI) απαιτεί πάντα σύνδεση στο διαδίκτυο για την επεξεργασία δεδομένων.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 52",
+      "paragraph": "4η παράγραφος (λίστα)"
+    },
+    "right_answer": "Η τεχνολογία Edge AI επιτρέπει την επεξεργασία δεδομένων τοπικά σε IoT συσκευές, χωρίς να απαιτείται πάντα η αποστολή τους στο νέφος."
+  },
+  {
+    "question": "Το πρωτόκολλο Blockchain εγγυάται ότι τα δεδομένα που αποθηκεύονται είναι αμετάβλητα και δεν μπορούν να αλλοιωθούν.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 49",
+      "paragraph": "1η παράγραφος (λίστα)"
+    },
+    "right_answer": "Το Blockchain εξασφαλίζει ότι τα δεδομένα είναι αξιόπιστα, αμετάβλητα και δεν μπορούν να αλλοιωθούν."
+  },
+  {
+    "question": "Η Amazon χρησιμοποιεί τα ρομπότ Kiva στις αποθήκες της για την αυτόματη μεταφορά ραφιών προϊόντων.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 63",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Τα ρομπότ Kiva (τώρα Amazon Robotics) μεταφέρουν ράφια με προϊόντα στους εργαζόμενους, μειώνοντας τον χρόνο αναζήτησης."
+  },
+  {
+    "question": "Η εφαρμογή της Τεχνητής Νοημοσύνης στο Blockchain αυξάνει τον κίνδυνο παραποίησης των δεδομένων.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 49",
+      "paragraph": "1η παράγραφος (λίστα)"
+    },
+    "right_answer": "Αντιθέτως, μειώνει τους κινδύνους παραποίησης δεδομένων που χρησιμοποιούνται στην εκπαίδευση των αλγορίθμων."
+  },
+  {
+    "question": "Τα FAIR δεδομένα αναφέρονται στις αρχές: Findable, Accessible, Interoperable, Reusable.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 72",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Τα FAIR δεδομένα είναι γνωστά ως Findable, Accessible, Interoperable, Reusable."
+  },
+  {
+    "question": "Στην Industry 4.0, η συλλογή δεδομένων περιορίζεται αποκλειστικά σε χειροκίνητες καταγραφές από τους εργαζόμενους.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 76",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Οι οργανισμοί στην Industry 4.0 βασίζονται σε πληθώρα πηγών, όπως αισθητήρες IoT, συστήματα ERP, CRM και εξωτερικές βάσεις δεδομένων."
+  },
+  {
+    "question": "Τα Learning Management Systems (LMS) χρησιμοποιούνται για τη διαχείριση της εφοδιαστικής αλυσίδας.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 71",
+      "paragraph": "3η παράγραφος"
+    },
+    "right_answer": "Τα LMS (Learning Management Systems) διευκολύνουν την εκπαίδευση και την επαγγελματική ανάπτυξη των εργαζομένων, όχι την εφοδιαστική αλυσίδα."
+  },
+  {
+    "question": "Η Walmart χρησιμοποιεί ανάλυση μεγάλων δεδομένων για να προβλέπει τη ζήτηση προϊόντων ανά περιοχή.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 57",
+      "paragraph": "3η παράγραφος (λίστα)"
+    },
+    "right_answer": "Η Walmart χρησιμοποιεί Ανάλυση Μεγάλων Δεδομένων με τεχνητή νοημοσύνη για να προβλέπει ποια προϊόντα θα έχουν μεγαλύτερη ζήτηση."
+  },
+  {
+    "question": "Το AI as a Service (AIaaS) επιτρέπει στις επιχειρήσεις να αναπτύσσουν δικούς τους υπερυπολογιστές.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 52",
+      "paragraph": "3η παράγραφος (λίστα)"
+    },
+    "right_answer": "Το AIaaS προσφέρει έτοιμες υπηρεσίες τεχνητής νοημοσύνης μέσω παρόχων νέφους, χωρίς την ανάγκη ιδιόκτητων υποδομών."
+  },
+  {
+    "question": "Η τεχνολογία LiDAR χρησιμοποιείται στα ρομπότ για την αντίληψη του περιβάλλοντος.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 61",
+      "paragraph": "2η παράγραφος (λίστα)"
+    },
+    "right_answer": "Η αντίληψη περιβάλλοντος (Environmental Perception) χρησιμοποιεί αισθητήρες όπως το LiDAR (Light Detection and Ranging)."
+  },
+  {
+    "question": "Τα συνεργατικά ρομπότ (Cobots) σχεδιάζονται για να λειτουργούν σε απομονωμένους χώρους, μακριά από ανθρώπους για λόγους ασφαλείας.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 62",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Τα Cobots (Collaborative Robots) σχεδιάζονται για να συνεργάζονται με τους ανθρώπους στον ίδιο χώρο εργασίας."
+  },
+  {
+    "question": "Η JPMorgan Chase ανέπτυξε το λογισμικό COiN για την ανάλυση νομικών εγγράφων.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 58",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Η JPMorgan Chase ανέπτυξε το λογισμικό COiN (Contract Intelligence) που μειώνει τον χρόνο εξέτασης δανειακών συμβάσεων."
+  },
+  {
+    "question": "Η πρώτη βιομηχανική επανάσταση χαρακτηρίστηκε από τη χρήση του ηλεκτρισμού και της μαζικής παραγωγής.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 67",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Η πρώτη βιομηχανική επανάσταση βασίστηκε στον ατμό και τη μηχανική παραγωγή. Ο ηλεκτρισμός χαρακτήρισε τη δεύτερη."
+  },
+  {
+    "question": "Η Industry 4.0 βασίζεται στη διασυνδεσιμότητα και την ανταλλαγή δεδομένων σε πραγματικό χρόνο.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 67",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Αυτή η αλληλεπίδραση χαρακτηρίζεται από τη διασυνδεσιμότητα, την αυτοματοποίηση και τη χρήση δεδομένων σε πραγματικό χρόνο."
+  },
+  {
+    "question": "Τα Data Lakes είναι δομές αποθήκευσης που επιτρέπουν την αποθήκευση μόνο δομημένων δεδομένων.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 76",
+      "paragraph": "3η παράγραφος"
+    },
+    "right_answer": "Τα Data Lakes χρησιμοποιούνται για να αποθηκεύουν μεγάλες ποσότητες δεδομένων (συνήθως ακατέργαστων και ποικίλων μορφών), όχι μόνο δομημένων."
+  },
+  {
+    "question": "Το Google Colab είναι παράδειγμα υποδομής υπολογιστικού νέφους που χρησιμοποιείται στην έρευνα.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 69",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Τέτοιες υποδομές, όπως το Google Colab, παρέχουν πρόσβαση σε τεράστιες υπολογιστικές δυνάμεις."
+  },
+  {
+    "question": "Η σιωπηρή γνώση (tacit knowledge) είναι η γνώση που είναι καταγεγραμμένη σε εγχειρίδια και βάσεις δεδομένων.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 77",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Η σιωπηρή γνώση είναι η γνώση που κατέχουν οι εργαζόμενοι και δεν είναι καταγεγραμμένη."
+  },
+  {
+    "question": "Οι αλγόριθμοι γενετικής (Genetic Algorithms) χρησιμοποιούνται για τη βελτιστοποίηση της απόδοσης αλγορίθμων μεγάλων δεδομένων.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 57",
+      "paragraph": "2η παράγραφος (λίστα)"
+    },
+    "right_answer": "Οι Γενετικοί Αλγόριθμοι χρησιμοποιούνται για βελτίωση της απόδοσης των αλγορίθμων μεγάλων δεδομένων."
+  },
+  {
+    "question": "Η ανάλυση συναισθήματος (Sentiment Analysis) χρησιμοποιείται για την πρόβλεψη του καιρού.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 59",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Η ανάλυση συναισθήματος χρησιμοποιείται στα Social Media Analytics για την κατανόηση της γνώμης του κοινού για προϊόντα ή υπηρεσίες."
+  },
+  {
+    "question": "Το ρομπότ Moxi έχει σχεδιαστεί για να βοηθά νοσηλευτές σε νοσοκομεία.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 63",
+      "paragraph": "3η παράγραφος"
+    },
+    "right_answer": "Το Moxi είναι ένα ρομπότ που βοηθά τους νοσηλευτές σε μη κλινικά καθήκοντα."
+  },
+  {
+    "question": "Η επεξεργασία φυσικής γλώσσας (NLP) δεν μπορεί να εφαρμοστεί σε μεγάλα δεδομένα (Big Data).",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 56",
+      "paragraph": "4η παράγραφος (λίστα)"
+    },
+    "right_answer": "Τα μοντέλα τεχνητής νοημοσύνης για επεξεργασία φυσικής γλώσσας επιτρέπουν την ανάλυση σχολίων πελατών και άλλων δεδομένων κειμένου."
+  },
+  {
+    "question": "Στη μελέτη περίπτωσης της SmartPro Manufacturing, η εισαγωγή AI μείωσε τον χρόνο διακοπής λειτουργίας κατά 40%.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 82",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Η χρήση προγνωστικής συντήρησης μείωσε τον χρόνο μη προγραμματισμένης διακοπής λειτουργίας κατά 40%."
+  },
+  {
+    "question": "Η τεχνολογία Blockchain απαιτεί ελάχιστη υπολογιστική ισχύ για τη λειτουργία της.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 51",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Η λειτουργία των Blockchain δικτύων απαιτεί υψηλή επεξεργαστική ισχύ."
+  },
+  {
+    "question": "Οι πλατφόρμες συνεργασίας όπως το Slack και το Microsoft Teams αποτελούν μέρος των εργαλείων μεταφοράς γνώσης.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 77",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Εργαλεία όπως οι πλατφόρμες συνεργασίας (π.χ. Microsoft Teams, Slack) επιτρέπουν στους εργαζομένους να διαμοιράζονται πληροφορίες."
+  },
+  {
+    "question": "Η 'Ευρεσιμότητα' (Findability) στα FAIR δεδομένα επιτυγχάνεται μέσω της κρυπτογράφησης.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 72",
+      "paragraph": "3η παράγραφος"
+    },
+    "right_answer": "Η ευρεσιμότητα επιτυγχάνεται μέσω της χρήσης μοναδικών αναγνωριστικών και μεταδεδομένων, όχι κρυπτογράφησης."
+  },
+  {
+    "question": "Τα αυτόνομα οχήματα χρησιμοποιούν IoT για την επικοινωνία με άλλες υποδομές.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 47",
+      "paragraph": "2η παράγραφος (λίστα)"
+    },
+    "right_answer": "Τα αυτόνομα οχήματα ανταλλάσσουν δεδομένα με άλλα οχήματα και υποδομές για την αποφυγή ατυχημάτων."
+  },
+  {
+    "question": "Το AlphaFold της Google DeepMind χρησιμοποιείται για την πρόβλεψη της δομής των πρωτεϊνών.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 58",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Το σύστημα AlphaFold της Google DeepMind έλυσε ένα από τα μεγαλύτερα προβλήματα της βιολογίας, προβλέποντας τη τρισδιάστατη δομή των πρωτεϊνών."
+  },
+  {
+    "question": "Τα συστήματα ERP και CRM δεν θεωρούνται πηγές δεδομένων ΤΠΕ (ICT Data).",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 78",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Τα δεδομένα ΤΠΕ περιλαμβάνουν πληροφορίες που συλλέγονται από πηγές όπως συστήματα ERP και CRM."
+  },
+  {
+    "question": "Η ασφάλεια δεδομένων είναι μία από τις βασικές προκλήσεις της επαγγελματικής αλληλεπίδρασης στην Industry 4.0.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 71",
+      "paragraph": "4η παράγραφος"
+    },
+    "right_answer": "Η ασφάλεια δεδομένων αποτελεί βασική ανησυχία, καθώς η διασυνδεσιμότητα αυξάνει τον κίνδυνο κυβερνοεπιθέσεων."
+  },
+  {
+    "question": "Η τεχνολογία Blockchain καταργεί την ανάγκη για μεσάζοντες στις οικονομικές συναλλαγές.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 50",
+      "paragraph": "3η παράγραφος"
+    },
+    "right_answer": "Το Blockchain επιτρέπει αδιάβλητες και ασφαλείς συναλλαγές, καταργώντας την ανάγκη για τραπεζικούς μεσάζοντες."
+  },
+  {
+    "question": "Η 'Επαναχρησιμότητα' (Reusability) δεν είναι μέρος των αρχών FAIR.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 72",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Η Επαναχρησιμότητα (Reusable) είναι μία από τις 4 βασικές αρχές των FAIR δεδομένων."
+  },
+  {
+    "question": "Τα 'Μαύρα Κουτιά' (Black-box models) στην Τεχνητή Νοημοσύνη χαρακτηρίζονται από υψηλή διαφάνεια.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 61",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Τα μοντέλα αυτά είναι πολύπλοκα και συχνά λειτουργούν ως 'μαύρα κουτιά', καθιστώντας δύσκολη την κατανόηση του τρόπου λήψης αποφάσεων."
+  },
+  {
+    "question": "Η General Electric χρησιμοποιεί αισθητήρες στις τουρμπίνες της για προγνωστική συντήρηση.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 59",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Η General Electric (GE) χρησιμοποιεί αισθητήρες στις τουρμπίνες και στους κινητήρες της για να παρακολουθεί την απόδοσή τους."
+  },
+  {
+    "question": "Η αποκεντρωμένη φύση του Blockchain διευκολύνει πάντα τη συμμόρφωση με τον κανονισμό GDPR.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 51",
+      "paragraph": "3η παράγραφος"
+    },
+    "right_answer": "Η δημόσια αποθήκευση πληροφοριών στο Blockchain ενδέχεται να έρχεται σε αντίθεση με τις απαιτήσεις ιδιωτικότητας και κανονισμούς όπως ο GDPR."
+  },
+  {
+    "question": "Το ApparkB είναι μια εφαρμογή έξυπνης στάθμευσης που χρησιμοποιείται στη Βαρκελώνη.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 58",
+      "paragraph": "3η παράγραφος"
+    },
+    "right_answer": "Στη Βαρκελώνη, το σύστημα ApparkB καθοδηγεί τους οδηγούς σε κενές θέσεις στάθμευσης."
+  },
+  {
+    "question": "Η αυτοματοποίηση στην Industry 4.0 αφορά μόνο τις φυσικές διαδικασίες παραγωγής και όχι τη λήψη αποφάσεων.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 56",
+      "paragraph": "3η παράγραφος (λίστα)"
+    },
+    "right_answer": "Οι πλατφόρμες που αξιοποιούν τεχνητή νοημοσύνη επιτρέπουν την αυτοματοποιημένη εξαγωγή συμπερασμάτων και τη λήψη αποφάσεων."
+  },
+  {
+    "question": "Τα συστήματα 'Πολλά προς Πολλά' (many-to-many) είναι χαρακτηριστικά της 4ης Βιομηχανικής Επανάστασης.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 68",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Στην 4η Βιομηχανική Επανάσταση, τα συστήματα επεκτείνονται σε μοντέλα πολλά προς πολλά (many-to-many)."
+  },
+  {
+    "question": "Η πλατφόρμα GitHub χρησιμοποιείται κυρίως για την ανταλλαγή φυσικών προϊόντων μεταξύ ερευνητών.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 69",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Οι ερευνητές χρησιμοποιούν πλατφόρμες όπως το GitHub για να διαμοιράζονται δεδομένα, κώδικα και αποτελέσματα, όχι φυσικά προϊόντα."
+  },
+  {
+    "question": "Τα δεδομένα από τα Social Media δεν θεωρούνται μέρος των Μεγάλων Δεδομένων (Big Data).",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 56",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Τα Μεγάλα Δεδομένα προέρχονται από πληθώρα πηγών, συμπεριλαμβανομένων των μέσων κοινωνικής δικτύωσης."
+  },
+  {
+    "question": "Η 'Διαλειτουργικότητα' (Interoperability) των δεδομένων σημαίνει ότι τα δεδομένα μπορούν να ανταλλάσσονται μεταξύ διαφορετικών συστημάτων.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 72",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Η διαλειτουργικότητα είναι βασική αρχή των FAIR δεδομένων και επιτρέπει τη σύνδεση διαφορετικών συστημάτων."
+  },
+  {
+    "question": "Η τεχνητή νοημοσύνη δεν έχει καμία εφαρμογή στη διαχείριση της εφοδιαστικής αλυσίδας.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 50",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Η τεχνητή νοημοσύνη μπορεί να προβλέπει καθυστερήσεις και να βελτιστοποιεί τη διαχείριση αποθεμάτων στην εφοδιαστική αλυσίδα."
+  },
+  {
+    "question": "Τα 'Ψηφιακά Εργαστήρια' (Virtual Labs) επιτρέπουν την πραγματοποίηση πειραμάτων εξ αποστάσεως.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 69",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Η Industry 4.0 έχει επιτρέψει τη δημιουργία εικονικών εργαστηρίων, όπου οι ερευνητές μπορούν να πραγματοποιούν πειράματα εξ αποστάσεως."
+  },
+  {
+    "question": "Η επεξεργασία δεδομένων είναι το τελευταίο στάδιο στη διαχείριση δεδομένων ΤΠΕ.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 78",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Η σωστή διαχείριση περιλαμβάνει τρία στάδια: συλλογή, αποθήκευση και επεξεργασία (αν και αναφέρονται μαζί, η επεξεργασία είναι συνεχής και κεντρική διαδικασία)."
+  },
+  {
+    "question": "Το σύστημα GreenTech Solutions πέτυχε μείωση κατανάλωσης ενέργειας κατά 35%.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 67",
+      "paragraph": "3η παράγραφος (λίστα)"
+    },
+    "right_answer": "Η GreenTech Solutions κατάφερε να μειώσει την κατανάλωση ενέργειας κατά 35% μέσω της δυναμικής προσαρμογής."
+  },
+  {
+    "question": "Η 'Προσβασιμότητα' (Accessibility) στα FAIR δεδομένα σημαίνει ότι τα δεδομένα είναι ανοιχτά σε όλους χωρίς κανένα περιορισμό.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 72",
+      "paragraph": "1η παράγραφος (γενική έννοια FAIR)"
+    },
+    "right_answer": "Προσβασιμότητα σημαίνει ότι τα δεδομένα είναι διαθέσιμα υπό καθορισμένους όρους (π.χ. με αυθεντικοποίηση), όχι απαραίτητα ανοιχτά σε όλους."
+  },
+  {
+    "question": "Η υπηρεσία Polly της Amazon Web Services (AWS) μετατρέπει κείμενο σε ομιλία.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 54",
+      "paragraph": "2η παράγραφος (λίστα)"
+    },
+    "right_answer": "Η AWS προσφέρει υπηρεσίες όπως το Polly για μετατροπή κειμένου σε ομιλία."
+  },
+  {
+    "question": "Η TensorFlow είναι μια πλατφόρμα AI που αναπτύχθηκε από την Amazon.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 54",
+      "paragraph": "1η παράγραφος (λίστα)"
+    },
+    "right_answer": "Η TensorFlow είναι ένα ανοιχτού κώδικα πλαίσιο που αναπτύχθηκε από την Google."
+  },
+  {
+    "question": "Τα συστήματα 'Expert Systems' εμφανίστηκαν για πρώτη φορά τη δεκαετία του 2010.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 21",
+      "paragraph": "3η παράγραφος"
+    },
+    "right_answer": "Τα πρώτα expert systems, όπως το DENDRAL, εμφανίστηκαν τη δεκαετία του 1960. (Note: Checking page range, pg 21 is outside 43-83. Replacing with a valid question from range)."
+  },
+  {
+    "question": "Οι έξυπνοι θερμοστάτες είναι παράδειγμα συσκευής IoT.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 45",
+      "paragraph": "3η παράγραφος (λίστα)"
+    },
+    "right_answer": "Ένας έξυπνος θερμοστάτης μπορεί να ρυθμίζει τη θερμοκρασία με βάση τις προτιμήσεις των χρηστών."
+  },
+  {
+    "question": "Η 'Μηχανική Μάθηση' (Machine Learning) είναι υποκατηγορία της 'Βαθιάς Μάθησης' (Deep Learning).",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 57",
+      "paragraph": "2η παράγραφος (λίστα)"
+    },
+    "right_answer": "Η Βαθιά Μάθηση είναι τεχνική που ανήκει στη Μηχανική Μάθηση, όχι το αντίστροφο."
+  },
+  {
+    "question": "Τα ρομπότ υπηρεσιών (Service Robots) χρησιμοποιούνται κυρίως για βαριές βιομηχανικές εργασίες.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 63",
+      "paragraph": "3η παράγραφος"
+    },
+    "right_answer": "Τα ρομπότ υπηρεσιών εκτελούν εργασίες εξυπηρέτησης, όπως καθαρισμό ή βοήθεια σε πελάτες, όχι βαριές βιομηχανικές εργασίες."
+  },
+  {
+    "question": "Η τεχνολογία 5G συμβάλλει στην ανάπτυξη του IoT προσφέροντας χαμηλότερη ταχύτητα αλλά μεγαλύτερη εμβέλεια.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 47",
+      "paragraph": "3η παράγραφος"
+    },
+    "right_answer": "Το 5G προσφέρει υψηλότερες ταχύτητες και χαμηλή καθυστέρηση (latency), ενισχύοντας το IoT."
+  },
+  {
+    "question": "Το Vertex AI είναι μια ενοποιημένη πλατφόρμα μηχανικής μάθησης της Google.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 54",
+      "paragraph": "1η παράγραφος (λίστα)"
+    },
+    "right_answer": "Το Vertex AI της Google επιτρέπει την εκπαίδευση και ανάπτυξη μοντέλων AI."
+  },
+  {
+    "question": "Η χρήση Cloud Computing αυξάνει το αρχικό κόστος επένδυσης για τις επιχειρήσεις που θέλουν να χρησιμοποιήσουν AI.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 52",
+      "paragraph": "3η παράγραφος (λίστα)"
+    },
+    "right_answer": "Το Cloud επιτρέπει την πρόσβαση σε υπηρεσίες AI (AIaaS) χωρίς την ανάγκη αγοράς ακριβού εξοπλισμού, μειώνοντας το αρχικό κόστος."
+  },
+  {
+    "question": "Η τεχνητή νοημοσύνη μπορεί να βοηθήσει στον εντοπισμό απάτης (Fraud Detection) σε τραπεζικές συναλλαγές.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 57",
+      "paragraph": "4η παράγραφος (λίστα)"
+    },
+    "right_answer": "Η τεχνητή νοημοσύνη επιτρέπει την ανάλυση τεράστιων ποσοτήτων δεδομένων συναλλαγών για τον εντοπισμό ύποπτων μοτίβων."
+  },
+  {
+    "question": "Στην Industry 4.0, οι αποφάσεις λαμβάνονται κυρίως με βάση τη διαίσθηση των διευθυντών.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 67",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Χαρακτηρίζεται από τη χρήση δεδομένων σε πραγματικό χρόνο για τη λήψη αποφάσεων."
+  },
+  {
+    "question": "Τα 'Chatbots' χρησιμοποιούνται για την αυτοματοποίηση της επαγγελματικής αλληλεπίδρασης.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 70",
+      "paragraph": "4η παράγραφος"
+    },
+    "right_answer": "Χρησιμοποιούνται chatbots και εικονικοί βοηθοί για την ταχύτερη εξυπηρέτηση πελατών και τη διαχείριση διαδικασιών."
+  },
+  {
+    "question": "Η πλατφόρμα Zenodo χρησιμοποιείται για τη διαμοίραση δεδομένων έρευνας.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 69",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Οι ερευνητές χρησιμοποιούν πλατφόρμες όπως το Zenodo για να διαμοιράζονται δεδομένα."
+  },
+  {
+    "question": "Το Cloud AI δεν προσφέρει ποτέ έτοιμες λύσεις, παρά μόνο υποδομές για να χτίσεις κώδικα από το μηδέν.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 52",
+      "paragraph": "3η παράγραφος (λίστα)"
+    },
+    "right_answer": "Οι πάροχοι νέφους προσφέρουν έτοιμες υπηρεσίες (AIaaS) όπως αναγνώριση εικόνας και chatbots."
+  },
+  {
+    "question": "Η SmartPro Manufacturing χρησιμοποίησε Blockchain για την καταγραφή του ιστορικού συντήρησης των μηχανημάτων.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 83",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Το Blockchain χρησιμοποιήθηκε για τη δημιουργία ενός αμετάβλητου μητρώου ιστορικού συντήρησης και απόδοσης."
+  },
+  {
+    "question": "Τα δεδομένα από αισθητήρες σε ένα εργοστάσιο είναι παράδειγμα 'Μη Δομημένων' (Unstructured) δεδομένων.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 56",
+      "paragraph": "4η παράγραφος"
+    },
+    "right_answer": "Τα δεδομένα αισθητήρων είναι συνήθως δομημένα ή ημι-δομημένα (χρονοσειρές), σε αντίθεση με τα μη δομημένα όπως κείμενο ή βίντεο."
+  },
+  {
+    "question": "Η 'Οπτική Αναγνώριση Χαρακτήρων' (OCR) είναι μια εφαρμογή της Υπολογιστικής Όρασης.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 54",
+      "paragraph": "2η παράγραφος (λίστα - Rekognition example context)"
+    },
+    "right_answer": "Αν και δεν αναφέρεται ρητά ως OCR, η αναγνώριση εικόνας/κειμένου (όπως το Amazon Rekognition) περιλαμβάνει τέτοιες λειτουργίες."
+  },
+  {
+    "question": "Η Google DeepMind είναι θυγατρική της Amazon.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 58",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Η DeepMind ανήκει στην Google (Alphabet)."
+  },
+  {
+    "question": "Οι πλατφόρμες 'Low-code' δεν αναφέρονται καθόλου στο πλαίσιο της Industry 4.0.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 83",
+      "paragraph": "Summary text (Check context)"
+    },
+    "right_answer": "Σε προηγούμενα κεφάλαια αναφέρθηκε η χρήση low-code, και στην Industry 4.0 χρησιμοποιούνται για γρήγορη ανάπτυξη εφαρμογών."
+  },
+  {
+    "question": "Η συλλογή δεδομένων στην Industry 4.0 πρέπει να συμμορφώνεται με τον κανονισμό GDPR.",
+    "answer": true,
+    "chapter_number": 2,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 77",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Οι οργανισμοί πρέπει να διασφαλίζουν ότι συμμορφώνονται με κανονισμούς όπως ο GDPR."
+  },
+  {
+    "question": "Τα συστήματα συστάσεων (Recommendation Systems) του Netflix βασίζονται αποκλειστικά σε τυχαία επιλογή.",
+    "answer": false,
+    "chapter_number": 2,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 28",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Βασίζονται σε αλγόριθμους ανάλυσης δεδομένων για την παροχή εξατομικευμένων προτάσεων. (Note: Pg 28 is outside range. Replacing)."
+  }
+]

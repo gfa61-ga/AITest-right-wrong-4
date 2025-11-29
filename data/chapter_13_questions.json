@@ -1,0 +1,662 @@
+[
+  {
+    "question": "Οι Προσωπικοί Βοηθοί (Intelligent Personal Assistants - IPAs) είναι συστήματα λογισμικού που αλληλεπιδρούν με τον χρήστη μέσω φυσικής γλώσσας.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 329",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Ορίζονται ως συστήματα που χρησιμοποιούν φωνή ή κείμενο για να βοηθήσουν τον χρήστη."
+  },
+  {
+    "question": "Το πρόγραμμα ELIZA, που αναπτύχθηκε το 1966, χρησιμοποιούσε βαθιά μηχανική μάθηση για να κατανοεί συναισθήματα.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 329",
+      "paragraph": "2η παράγραφος (Ιστορία)"
+    },
+    "right_answer": "Η ELIZA βασιζόταν σε απλή αντιστοίχιση προτύπων (pattern matching) και σενάρια, όχι σε βαθιά μάθηση."
+  },
+  {
+    "question": "Η Siri της Apple ήταν ο πρώτος σύγχρονος ψηφιακός βοηθός που ενσωματώθηκε σε smartphone το 2011.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 329",
+      "paragraph": "3η παράγραφος"
+    },
+    "right_answer": "Η κυκλοφορία της Siri στο iPhone 4S θεωρείται η αρχή της σύγχρονης εποχής των βοηθών."
+  },
+  {
+    "question": "Η 'λέξη αφύπνισης' (wake word) ενεργοποιεί τη συσκευή για να αρχίσει να καταγράφει και να επεξεργάζεται την εντολή.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 330",
+      "paragraph": "Λίστα (Wake word)"
+    },
+    "right_answer": "Λέξεις όπως 'Hey Siri' ή 'Alexa' θέτουν τη συσκευή σε κατάσταση ενεργής ακρόασης."
+  },
+  {
+    "question": "Η Αναγνώριση Ομιλίας (ASR) μετατρέπει το κείμενο σε συνθετική φωνή.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 332",
+      "paragraph": "Λίστα (ASR)"
+    },
+    "right_answer": "Η ASR (Automatic Speech Recognition) μετατρέπει την ομιλία σε κείμενο. Το TTS (Text-to-Speech) κάνει το αντίθετο."
+  },
+  {
+    "question": "Η κατανόηση φυσικής γλώσσας (NLU) εστιάζει στον εντοπισμό της πρόθεσης (intent) του χρήστη.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 333",
+      "paragraph": "Λίστα (NLU)"
+    },
+    "right_answer": "Το NLU αναλύει το κείμενο για να καταλάβει τι θέλει να κάνει ο χρήστης και ποιες οντότητες εμπλέκονται."
+  },
+  {
+    "question": "Η παραγωγή φυσικής γλώσσας (NLG) είναι η διαδικασία δημιουργίας της απάντησης του συστήματος σε ανθρώπινη μορφή.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 333",
+      "paragraph": "Λίστα (NLG)"
+    },
+    "right_answer": "Το NLG μετατρέπει τα δομημένα δεδομένα της απάντησης σε φυσικό, κατανοητό κείμενο."
+  },
+  {
+    "question": "Οι σύγχρονοι ψηφιακοί βοηθοί επεξεργάζονται όλα τα δεδομένα αποκλειστικά τοπικά στη συσκευή του χρήστη.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 331",
+      "paragraph": "Λίστα (Cloud)"
+    },
+    "right_answer": "Οι περισσότεροι βοηθοί στέλνουν τα δεδομένα στο Cloud για επεξεργασία λόγω των υψηλών απαιτήσεων υπολογιστικής ισχύος."
+  },
+  {
+    "question": "Τα chatbots στην εξυπηρέτηση πελατών μπορούν να μειώσουν το λειτουργικό κόστος των επιχειρήσεων.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 334",
+      "paragraph": "Λίστα (Εξυπηρέτηση Πελατών)"
+    },
+    "right_answer": "Αυτοματοποιώντας τις απαντήσεις σε συχνές ερωτήσεις, μειώνουν την ανάγκη για μεγάλα τηλεφωνικά κέντρα."
+  },
+  {
+    "question": "Η 'διαχείριση πλαισίου' (context management) επιτρέπει στον βοηθό να θυμάται πληροφορίες από προηγούμενες ερωτήσεις.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 333",
+      "paragraph": "Λίστα (Context)"
+    },
+    "right_answer": "Είναι κρίσιμη για τη διατήρηση φυσικής ροής διαλόγου χωρίς ο χρήστης να επαναλαμβάνει λεπτομέρειες."
+  },
+  {
+    "question": "Το φαινόμενο 'Uncanny Valley' αναφέρεται στην ευχαρίστηση που νιώθουν οι άνθρωποι όταν τα ρομπότ μοιάζουν πολύ με ανθρώπους.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 335",
+      "paragraph": "Λίστα (Uncanny Valley)"
+    },
+    "right_answer": "Αναφέρεται στο αίσθημα δυσφορίας ή αποστροφής όταν ένα ρομπότ μοιάζει σχεδόν, αλλά όχι τέλεια, ανθρώπινο."
+  },
+  {
+    "question": "Οι διάλεκτοι και οι προφορές δεν αποτελούν πρόκληση για τα σύγχρονα συστήματα αναγνώρισης ομιλίας.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 335",
+      "paragraph": "Λίστα (Ακρίβεια)"
+    },
+    "right_answer": "Οι διάλεκτοι, οι προφορές και ο θόρυβος παραμένουν σημαντικές προκλήσεις για την ακρίβεια των συστημάτων."
+  },
+  {
+    "question": "Στο έξυπνο σπίτι, οι φωνητικοί βοηθοί λειτουργούν ως κεντρικοί κόμβοι ελέγχου (hubs).",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 334",
+      "paragraph": "Λίστα (Smart Home)"
+    },
+    "right_answer": "Επιτρέπουν τον έλεγχο φώτων, θερμοστάτη και άλλων συσκευών μέσω φωνητικών εντολών."
+  },
+  {
+    "question": "Η μελέτη περίπτωσης της Ελληνικής Τράπεζας (σελ. 338) αφορούσε την αντικατάσταση όλων των υπαλλήλων με ρομπότ.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 338",
+      "paragraph": "Στόχος"
+    },
+    "right_answer": "Στόχος ήταν η αποσυμφόρηση του τηλεφωνικού κέντρου και η βελτίωση της εξυπηρέτησης, όχι η πλήρης αντικατάσταση υπαλλήλων."
+  },
+  {
+    "question": "Ο ψηφιακός βοηθός της τράπεζας μπορούσε να εκτελέσει συναλλαγές όπως μεταφορά χρημάτων.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 339",
+      "paragraph": "Λειτουργίες"
+    },
+    "right_answer": "Εκτός από πληροφορίες, μπορούσε να εκτελεί και ασφαλείς συναλλαγές μετά από ταυτοποίηση."
+  },
+  {
+    "question": "Η ανάλυση συναισθήματος (sentiment analysis) βοηθά τον βοηθό να προσαρμόσει τον τόνο της απάντησής του.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 333",
+      "paragraph": "Λίστα (Sentiment)"
+    },
+    "right_answer": "Επιτρέπει την κατανόηση της ψυχολογικής κατάστασης του χρήστη (π.χ. θυμός, χαρά)."
+  },
+  {
+    "question": "Η προστασία της ιδιωτικότητας δεν είναι σημαντικό ζήτημα στους φωνητικούς βοηθούς που είναι πάντα ενεργοί (always-on).",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 335",
+      "paragraph": "Λίστα (Ιδιωτικότητα)"
+    },
+    "right_answer": "Η πιθανότητα τυχαίας καταγραφής ευαίσθητων συζητήσεων αποτελεί μείζον θέμα ιδιωτικότητας."
+  },
+  {
+    "question": "Στη μελέτη περίπτωσης Υγείας (σελ. 341), ο εικονικός βοηθός έκανε αυτόματη διάγνωση και συνταγογράφηση.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 341",
+      "paragraph": "Ρόλος"
+    },
+    "right_answer": "Ο βοηθός έκανε αξιολόγηση συμπτωμάτων (triage) και καθοδήγηση, δεν υποκαθιστούσε τον ιατρό στη διάγνωση."
+  },
+  {
+    "question": "Ο εικονικός βοηθός υγείας βοήθησε στη μείωση του διοικητικού φόρτου του νοσηλευτικού προσωπικού.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 342",
+      "paragraph": "Αποτελέσματα"
+    },
+    "right_answer": "Αυτοματοποιώντας τα ραντεβού και τις απαντήσεις, απελευθέρωσε χρόνο για το προσωπικό."
+  },
+  {
+    "question": "Η τεχνολογία Text-to-Speech (TTS) μετατρέπει γραπτό κείμενο σε ακουστικό λόγο.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 333",
+      "paragraph": "Λίστα (TTS)"
+    },
+    "right_answer": "Είναι η τεχνολογία που επιτρέπει στον βοηθό να 'μιλάει' στον χρήστη."
+  },
+  {
+    "question": "Οι πρώτοι chatbots όπως η ELIZA μπορούσαν να κατανοήσουν πραγματικά το νόημα της συζήτησης.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 329",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Η ELIZA προσομείωνε την κατανόηση μέσω κανόνων, χωρίς να αντιλαμβάνεται πραγματικά το νόημα."
+  },
+  {
+    "question": "Η 'πολυτροπική αλληλεπίδραση' (multimodal interaction) συνδυάζει φωνή, αφή και οπτικά στοιχεία.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 336",
+      "paragraph": "Λίστα (Μέλλον)"
+    },
+    "right_answer": "Το μέλλον των βοηθών περιλαμβάνει συνδυασμό ομιλίας με οθόνες και χειρονομίες."
+  },
+  {
+    "question": "Η αμφισημία (ambiguity) της γλώσσας διευκολύνει την επεξεργασία από τα συστήματα NLP.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 335",
+      "paragraph": "Λίστα (Προκλήσεις NLP)"
+    },
+    "right_answer": "Η αμφισημία είναι μεγάλη πρόκληση, καθώς η ίδια λέξη μπορεί να έχει πολλές σημασίες ανάλογα με τα συμφραζόμενα."
+  },
+  {
+    "question": "Οι εικονικοί βοηθοί στην εκπαίδευση μπορούν να προσφέρουν εξατομικευμένη μάθηση.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 334",
+      "paragraph": "Λίστα (Εκπαίδευση)"
+    },
+    "right_answer": "Μπορούν να προσαρμόζουν το υλικό και το ρυθμό μάθησης στις ανάγκες του μαθητή."
+  },
+  {
+    "question": "Η Cortana είναι ο ψηφιακός βοηθός της εταιρείας Amazon.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 330",
+      "paragraph": "Λίστα (Παραδείγματα)"
+    },
+    "right_answer": "Η Cortana ανήκει στη Microsoft. Η Amazon έχει την Alexa."
+  },
+  {
+    "question": "Η 'προληπτική βοήθεια' (proactive assistance) σημαίνει ότι ο βοηθός περιμένει πάντα εντολή από τον χρήστη.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 336",
+      "paragraph": "Λίστα (Proactivity)"
+    },
+    "right_answer": "Προληπτική βοήθεια σημαίνει ότι ο βοηθός αναλαμβάνει πρωτοβουλία και προτείνει ενέργειες πριν του ζητηθεί."
+  },
+  {
+    "question": "Η αναγνώριση οντοτήτων (Entity Recognition) είναι μέρος της διαδικασίας NLU.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 333",
+      "paragraph": "Λίστα (NLU)"
+    },
+    "right_answer": "Περιλαμβάνει τον εντοπισμό συγκεκριμένων στοιχείων όπως ημερομηνίες, τοποθεσίες και ονόματα."
+  },
+  {
+    "question": "Η χρήση chatbots στην τράπεζα αύξησε τον μέσο χρόνο αναμονής για τους πελάτες.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 339",
+      "paragraph": "Αποτελέσματα"
+    },
+    "right_answer": "Αντίθετα, μείωσε τον χρόνο αναμονής και βελτίωσε την ταχύτητα εξυπηρέτησης."
+  },
+  {
+    "question": "Οι φωνητικοί βοηθοί στα αυτοκίνητα μειώνουν την απόσπαση προσοχής του οδηγού.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 334",
+      "paragraph": "Λίστα (Automotive)"
+    },
+    "right_answer": "Επιτρέπουν τον έλεγχο λειτουργιών (π.χ. GPS, μουσική) χωρίς ο οδηγός να πάρει τα χέρια από το τιμόνι."
+  },
+  {
+    "question": "Το ALICE ήταν ένα chatbot που αναπτύχθηκε τη δεκαετία του 1990.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 329",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Αναφέρεται ως σημαντικός σταθμός στην εξέλιξη των chatbots μετά την ELIZA."
+  },
+  {
+    "question": "Η 'συναισθηματική νοημοσύνη' (emotional intelligence) είναι στόχος για τους μελλοντικούς βοηθούς.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 336",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Οι ερευνητές προσπαθούν να κάνουν τους βοηθούς να κατανοούν και να εκφράζουν συναισθήματα."
+  },
+  {
+    "question": "Οι ψηφιακοί βοηθοί δεν μπορούν να χρησιμοποιηθούν από ηλικιωμένους.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 334",
+      "paragraph": "Λίστα (Health/Elderly)"
+    },
+    "right_answer": "Χρησιμοποιούνται για υπενθύμιση φαρμάκων και συντροφιά σε ηλικιωμένους."
+  },
+  {
+    "question": "Η επεξεργασία στο 'άκρο' (Edge AI) βελτιώνει την ιδιωτικότητα κρατώντας τα δεδομένα στη συσκευή.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 331",
+      "paragraph": "Λίστα (Device vs Cloud)"
+    },
+    "right_answer": "Η τοπική επεξεργασία αποφεύγει την αποστολή ευαίσθητων δεδομένων στο Cloud."
+  },
+  {
+    "question": "Η Google Duplex είναι τεχνολογία που μπορεί να κάνει τηλεφωνικές κρατήσεις για λογαριασμό του χρήστη.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 330",
+      "paragraph": "Context (Google Assistant)"
+    },
+    "right_answer": "Είναι προηγμένη εφαρμογή που μιμείται φυσική ανθρώπινη συνομιλία για κλείσιμο ραντεβού."
+  },
+  {
+    "question": "Τα συστήματα Dialog Manager αποφασίζουν ποια θα είναι η επόμενη ενέργεια του συστήματος.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 333",
+      "paragraph": "Λίστα (Dialog Manager)"
+    },
+    "right_answer": "Ο διαχειριστής διαλόγου παρακολουθεί την κατάσταση της συζήτησης και επιλέγει την κατάλληλη απόκριση."
+  },
+  {
+    "question": "Η έλλειψη εμπιστοσύνης δεν επηρεάζει την υιοθέτηση των ψηφιακών βοηθών.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 335",
+      "paragraph": "Λίστα (Προκλήσεις)"
+    },
+    "right_answer": "Η εμπιστοσύνη, ειδικά σε θέματα ασφάλειας δεδομένων, είναι κρίσιμος παράγοντας αποδοχής."
+  },
+  {
+    "question": "Στη μελέτη της Τράπεζας, το chatbot ήταν διαθέσιμο μόνο μέσω υπολογιστή (desktop).",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 338",
+      "paragraph": "Υλοποίηση"
+    },
+    "right_answer": "Ήταν διαθέσιμο μέσω mobile app και web banking, προσφέροντας πολυκαναλική εμπειρία."
+  },
+  {
+    "question": "Η 'ταυτοποίηση φωνής' (voice biometrics) αυξάνει την ασφάλεια των συναλλαγών.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 339",
+      "paragraph": "Ασφάλεια"
+    },
+    "right_answer": "Χρησιμοποιεί τα μοναδικά χαρακτηριστικά της φωνής για να πιστοποιήσει την ταυτότητα του χρήστη."
+  },
+  {
+    "question": "Οι αλγόριθμοι μηχανικής μάθησης στους βοηθούς δεν χρειάζονται επανεκπαίδευση.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 332",
+      "paragraph": "Context (Εκπαίδευση)"
+    },
+    "right_answer": "Χρειάζονται συνεχή βελτίωση και επανεκπαίδευση με νέα δεδομένα για να παραμένουν ακριβείς."
+  },
+  {
+    "question": "Η Alexa αναπτύχθηκε από την εταιρεία Apple.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 330",
+      "paragraph": "Λίστα (Alexa)"
+    },
+    "right_answer": "Η Alexa αναπτύχθηκε από την Amazon."
+  },
+  {
+    "question": "Ο εικονικός βοηθός υγείας μείωσε τον αριθμό των αναπάντητων κλήσεων στη δημόσια μονάδα.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 342",
+      "paragraph": "Αποτελέσματα"
+    },
+    "right_answer": "Βελτίωσε τη διαχείριση των κλήσεων εξυπηρετώντας αυτόματα πολλά αιτήματα."
+  },
+  {
+    "question": "Οι 'έξυπνοι ομιλητές' (smart speakers) είναι συσκευές υλικού που ενσωματώνουν ψηφιακούς βοηθούς.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 330",
+      "paragraph": "Context (Hardware)"
+    },
+    "right_answer": "Συσκευές όπως το Amazon Echo και το Google Home είναι τα κύρια μέσα πρόσβασης σε βοηθούς στο σπίτι."
+  },
+  {
+    "question": "Η ανθρώπινη συνεργασία με την ΤΝ (Human-in-the-loop) είναι απαραίτητη για την αντιμετώπιση σύνθετων προβλημάτων.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 337",
+      "paragraph": "Context (Συνεργασία)"
+    },
+    "right_answer": "Η ΤΝ χειρίζεται τα απλά, ενώ οι άνθρωποι αναλαμβάνουν τις περιπτώσεις που απαιτούν κρίση και ενσυναίσθηση."
+  },
+  {
+    "question": "Το 5G δεν αναμένεται να επηρεάσει την απόδοση των ψηφιακών βοηθών.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 336",
+      "paragraph": "Μέλλον"
+    },
+    "right_answer": "Το 5G θα βελτιώσει σημαντικά την ταχύτητα και τη συνδεσιμότητα, επιτρέποντας πιο άμεσες αντιδράσεις."
+  },
+  {
+    "question": "Η μελέτη περίπτωσης στην Υγεία έλαβε χώρα σε ιδιωτική κλινική.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 341",
+      "paragraph": "Τίτλος 13.7"
+    },
+    "right_answer": "Αφορούσε *Δημόσια* Μονάδα Υγειονομικής Περίθαλψης."
+  },
+  {
+    "question": "Τα συστήματα 'Sequence-to-Sequence' χρησιμοποιούνται στη μετάφραση γλώσσας.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 332",
+      "paragraph": "Context (Τεχνολογίες)"
+    },
+    "right_answer": "Είναι αρχιτεκτονική βαθιάς μάθησης ιδανική για αντιστοίχιση ακολουθιών (π.χ. κείμενο σε κείμενο)."
+  },
+  {
+    "question": "Η έλλειψη οπτικής επαφής είναι μειονέκτημα των καθαρά φωνητικών βοηθών.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 336",
+      "paragraph": "Πολυτροπικότητα"
+    },
+    "right_answer": "Η προσθήκη οθόνης (smart displays) λύνει αυτό το πρόβλημα παρέχοντας οπτική πληροφορία."
+  },
+  {
+    "question": "Οι chatbots δεν μπορούν να συνδεθούν με τα backend συστήματα μιας επιχείρησης (π.χ. CRM).",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 338",
+      "paragraph": "Case Study Bank"
+    },
+    "right_answer": "Η σύνδεση με backend συστήματα είναι απαραίτητη για την εκτέλεση εξατομικευμένων ενεργειών."
+  },
+  {
+    "question": "Η χρήση ψηφιακών βοηθών στον τουρισμό μπορεί να βελτιώσει την εμπειρία του ταξιδιώτη.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 334",
+      "paragraph": "Λίστα (Εφαρμογές)"
+    },
+    "right_answer": "Παρέχουν πληροφορίες, μεταφράσεις και οδηγίες σε πραγματικό χρόνο."
+  },
+  {
+    "question": "Η 'αυτοματοποίηση ρομποτικών διαδικασιών' (RPA) είναι συνώνυμο της διαλογικής ΤΝ.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 328",
+      "paragraph": "Ορισμοί"
+    },
+    "right_answer": "Το RPA αφορά αυτοματοποίηση επαναλαμβανόμενων εργασιών, ενώ η διαλογική ΤΝ εστιάζει στην επικοινωνία."
+  },
+  {
+    "question": "Η επεξεργασία φυσικής γλώσσας (NLP) είναι υποσύνολο της Τεχνητής Νοημοσύνης.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 332",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Είναι ο κλάδος της ΤΝ που ασχολείται με την αλληλεπίδραση υπολογιστών και ανθρώπινης γλώσσας."
+  },
+  {
+    "question": "Τα 'Intent' και 'Entity' είναι βασικές έννοιες στο NLU.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 333",
+      "paragraph": "Λίστα (NLU)"
+    },
+    "right_answer": "Intent είναι η πρόθεση (τι θέλει ο χρήστης) και Entity είναι η οντότητα (λεπτομέρειες)."
+  },
+  {
+    "question": "Η Siri αναπτύχθηκε αρχικά από την Microsoft.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 329",
+      "paragraph": "Context"
+    },
+    "right_answer": "Η Siri αναπτύχθηκε από το SRI International και εξαγοράστηκε από την Apple."
+  },
+  {
+    "question": "Η ηθική χρήση των chatbots απαιτεί διαφάνεια ότι ο χρήστης μιλάει με μηχανή.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 335",
+      "paragraph": "Ηθική"
+    },
+    "right_answer": "Είναι σημαντικό οι χρήστες να γνωρίζουν ότι αλληλεπιδρούν με σύστημα ΤΝ και όχι με άνθρωπο."
+  },
+  {
+    "question": "Η μελέτη περίπτωσης της Τράπεζας έδειξε μείωση της ικανοποίησης πελατών (NPS).",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 339",
+      "paragraph": "Αποτελέσματα"
+    },
+    "right_answer": "Η ικανοποίηση πελατών αυξήθηκε λόγω της άμεσης εξυπηρέτησης."
+  },
+  {
+    "question": "Η 'Προσωποποίηση' (Personalization) είναι πλεονέκτημα των σύγχρονων βοηθών.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 336",
+      "paragraph": "Τάσεις"
+    },
+    "right_answer": "Μπορούν να μαθαίνουν τις προτιμήσεις του χρήστη και να παρέχουν στοχευμένες προτάσεις."
+  },
+  {
+    "question": "Τα συστήματα ASR λειτουργούν τέλεια σε περιβάλλοντα με έντονο θόρυβο.",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 335",
+      "paragraph": "Προκλήσεις"
+    },
+    "right_answer": "Ο θόρυβος του περιβάλλοντος μειώνει σημαντικά την ακρίβεια της αναγνώρισης ομιλίας."
+  },
+  {
+    "question": "Η IBM Watson Assistant είναι πλατφόρμα δημιουργίας διαλογικών διεπαφών.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 330",
+      "paragraph": "Context (Εργαλεία)"
+    },
+    "right_answer": "Είναι μια από τις κορυφαίες enterprise πλατφόρμες για conversational AI."
+  },
+  {
+    "question": "Η έννοια 'Slot Filling' αφορά τη συμπλήρωση κενών σε μια φόρμα με βάση τα λεγόμενα του χρήστη.",
+    "answer": true,
+    "chapter_number": 13,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 333",
+      "paragraph": "Context (Dialog Management)"
+    },
+    "right_answer": "Είναι η διαδικασία συλλογής όλων των απαραίτητων παραμέτρων (slots) για την εκτέλεση μιας ενέργειας."
+  },
+  {
+    "question": "Οι ψηφιακοί βοηθοί δεν έχουν εφαρμογή στον τομέα του HR (Ανθρώπινου Δυναμικού).",
+    "answer": false,
+    "chapter_number": 13,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 334",
+      "paragraph": "Λίστα (Επιχειρήσεις)"
+    },
+    "right_answer": "Χρησιμοποιούνται για onboarding εργαζομένων, απαντήσεις σε ερωτήματα αδειών και άλλες HR διαδικασίες."
+  }
+]

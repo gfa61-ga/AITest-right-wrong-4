@@ -1,0 +1,662 @@
+[
+  {
+    "question": "Τα Τεχνητά Νευρωνικά Δίκτυα αποτελούνται από κόμβους που ονομάζονται νευρώνες.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 178",
+      "paragraph": "3η παράγραφος"
+    },
+    "right_answer": "Αποτελούνται από διασυνδεδεμένους κόμβους (νευρώνες) που επεξεργάζονται πληροφορίες."
+  },
+  {
+    "question": "Το επίπεδο εισόδου (input layer) πραγματοποιεί πολύπλοκους υπολογισμούς πριν στείλει δεδομένα.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 179",
+      "paragraph": "Λίστα (Επίπεδο εισόδου)"
+    },
+    "right_answer": "Το επίπεδο εισόδου λαμβάνει τα ακατέργαστα δεδομένα και τα μεταβιβάζει στο επόμενο επίπεδο χωρίς να πραγματοποιεί υπολογισμούς."
+  },
+  {
+    "question": "Τα κρυφά επίπεδα (hidden layers) βρίσκονται ανάμεσα στο επίπεδο εισόδου και εξόδου.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 179",
+      "paragraph": "Λίστα (Κρυφά επίπεδα)"
+    },
+    "right_answer": "Αυτά τα επίπεδα βρίσκονται μεταξύ της εισόδου και της εξόδου και εκτελούν τους περισσότερους υπολογισμούς."
+  },
+  {
+    "question": "Η συνάρτηση ενεργοποίησης (activation function) καθορίζει αν ένας νευρώνας θα ενεργοποιηθεί.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 179",
+      "paragraph": "Λίστα (Συναρτήσεις ενεργοποίησης)"
+    },
+    "right_answer": "Κάθε νευρώνας διαθέτει μια συνάρτηση ενεργοποίησης που καθορίζει αν θα ενεργοποιηθεί ή όχι."
+  },
+  {
+    "question": "Η ReLU είναι μια συνάρτηση ενεργοποίησης που επιστρέφει πάντα αρνητικές τιμές.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 180",
+      "paragraph": "Λίστα (ReLU)"
+    },
+    "right_answer": "Η ReLU (Rectified Linear Unit) ενεργοποιεί μόνο θετικές τιμές (επιστρέφει 0 για αρνητικές εισόδους)."
+  },
+  {
+    "question": "Τα Βαθιά Νευρωνικά Δίκτυα (Deep Neural Networks) έχουν μόνο ένα κρυφό επίπεδο.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 180",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Ο όρος 'βαθιά' αναφέρεται στο γεγονός ότι τα δίκτυα αυτά διαθέτουν πολλά κρυφά επίπεδα (συνήθως περισσότερα από ένα)."
+  },
+  {
+    "question": "Τα Συνελικτικά Νευρωνικά Δίκτυα (CNNs) χρησιμοποιούνται κυρίως για την επεξεργασία κειμένου.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 181",
+      "paragraph": "1η παράγραφος (CNNs)"
+    },
+    "right_answer": "Τα CNNs είναι εξειδικευμένα στην επεξεργασία δεδομένων που έχουν μορφή πλέγματος, όπως οι εικόνες."
+  },
+  {
+    "question": "Τα Αναδρομικά Νευρωνικά Δίκτυα (RNNs) διαθέτουν μνήμη που τους επιτρέπει να συγκρατούν πληροφορίες.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 182",
+      "paragraph": "1η παράγραφος (RNNs)"
+    },
+    "right_answer": "Τα RNNs έχουν «μνήμη» που τους επιτρέπει να συγκρατούν πληροφορίες από προηγούμενα βήματα."
+  },
+  {
+    "question": "Η οπισθοδιάδοση (Backpropagation) είναι αλγόριθμος που χρησιμοποιείται για την εκπαίδευση νευρωνικών δικτύων.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 183",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Η οπισθοδιάδοση είναι ο πιο κοινός αλγόριθμος για την εκπαίδευση νευρωνικών δικτύων."
+  },
+  {
+    "question": "Ο ρυθμός μάθησης (learning rate) καθορίζει πόσο γρήγορα προσαρμόζονται τα βάρη του δικτύου.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 184",
+      "paragraph": "Λίστα (Ρυθμός μάθησης)"
+    },
+    "right_answer": "Ελέγχει το μέγεθος των βημάτων που κάνει το μοντέλο κατά την προσαρμογή των βαρών."
+  },
+  {
+    "question": "Ένας πολύ υψηλός ρυθμός μάθησης οδηγεί πάντα σε ταχύτερη και ακριβέστερη σύγκλιση.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 184",
+      "paragraph": "Λίστα (Ρυθμός μάθησης)"
+    },
+    "right_answer": "Ένας πολύ υψηλός ρυθμός μπορεί να οδηγήσει σε αστάθεια ή απόκλιση, εμποδίζοντας τη σύγκλιση."
+  },
+  {
+    "question": "Η υπερεκπαίδευση (Overfitting) συμβαίνει όταν το μοντέλο μαθαίνει τα δεδομένα εκπαίδευσης πολύ καλά αλλά αποτυγχάνει σε νέα δεδομένα.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 184",
+      "paragraph": "Λίστα (Υπερεκπαίδευση)"
+    },
+    "right_answer": "Συμβαίνει όταν το μοντέλο μαθαίνει τα δεδομένα εκπαίδευσης τόσο καλά που χάνει την ικανότητα γενίκευσης."
+  },
+  {
+    "question": "Η τεχνική Dropout χρησιμοποιείται για να αυξήσει την υπερεκπαίδευση.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 185",
+      "paragraph": "Λίστα (Dropout)"
+    },
+    "right_answer": "Το Dropout απενεργοποιεί τυχαία νευρώνες κατά την εκπαίδευση για να αποτρέψει την υπερεκπαίδευση."
+  },
+  {
+    "question": "Τα GANs (Generative Adversarial Networks) αποτελούνται από δύο δίκτυα: τον γεννήτορα και τον διαχωριστή.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 182",
+      "paragraph": "2η παράγραφος (GANs)"
+    },
+    "right_answer": "Τα GANs αποτελούνται από δύο ανταγωνιστικά δίκτυα: τον γεννήτορα (generator) και τον διαχωριστή (discriminator)."
+  },
+  {
+    "question": "Στα GANs, ο στόχος του διαχωριστή είναι να δημιουργεί αληθοφανή δεδομένα.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 182",
+      "paragraph": "2η παράγραφος (GANs)"
+    },
+    "right_answer": "Ο στόχος του διαχωριστή είναι να ξεχωρίζει τα πραγματικά δεδομένα από τα ψεύτικα, ενώ ο γεννήτορας δημιουργεί τα δεδομένα."
+  },
+  {
+    "question": "Η επεξεργασία φυσικής γλώσσας (NLP) δεν χρησιμοποιεί ποτέ νευρωνικά δίκτυα.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 186",
+      "paragraph": "Λίστα (Επεξεργασία Φυσικής Γλώσσας)"
+    },
+    "right_answer": "Τα νευρωνικά δίκτυα χρησιμοποιούνται ευρέως στο NLP για μεταφράσεις, chatbots και ανάλυση συναισθήματος."
+  },
+  {
+    "question": "Η ανάλυση συναισθήματος (Sentiment Analysis) μπορεί να προσδιορίσει αν ένα κείμενο είναι θετικό, αρνητικό ή ουδέτερο.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 187",
+      "paragraph": "1η παράγραφος (Μελέτη περίπτωσης)"
+    },
+    "right_answer": "Στόχος ήταν η ανάπτυξη ενός μοντέλου που θα μπορούσε να ταξινομεί τα σχόλια ως θετικά, αρνητικά ή ουδέτερα."
+  },
+  {
+    "question": "Τα δέντρα αποφάσεων (Decision Trees) είναι μια μέθοδος μηχανικής μάθησης που χρησιμοποιεί δενδρική δομή.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 188",
+      "paragraph": "1η παράγραφος (Δένδρα αποφάσεων)"
+    },
+    "right_answer": "Τα δένδρα αποφάσεων είναι μια δημοφιλής μέθοδος που αναπαριστά αποφάσεις και πιθανά αποτελέσματα σε δενδρική μορφή."
+  },
+  {
+    "question": "Ο κόμβος ρίζας (root node) σε ένα δέντρο απόφασης είναι ο τελικός κόμβος που δίνει την απόφαση.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 188",
+      "paragraph": "Λίστα (Κόμβος ρίζας)"
+    },
+    "right_answer": "Ο κόμβος ρίζας είναι ο αρχικός κόμβος από τον οποίο ξεκινά το δέντρο, όχι ο τελικός."
+  },
+  {
+    "question": "Οι κόμβοι φύλλα (leaf nodes) αντιπροσωπεύουν τα τελικά αποτελέσματα ή τις αποφάσεις.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 188",
+      "paragraph": "Λίστα (Κόμβοι φύλλα)"
+    },
+    "right_answer": "Οι κόμβοι φύλλα είναι οι τελικοί κόμβοι που δεν διακλαδίζονται περαιτέρω και αντιπροσωπεύουν την απόφαση."
+  },
+  {
+    "question": "Τα δέντρα αποφάσεων δεν μπορούν να διαχειριστούν κατηγορικά δεδομένα.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 189",
+      "paragraph": "3η παράγραφος (Πλεονεκτήματα)"
+    },
+    "right_answer": "Τα δένδρα αποφάσεων μπορούν να διαχειριστούν τόσο αριθμητικά όσο και κατηγορικά δεδομένα."
+  },
+  {
+    "question": "Ο αλγόριθμος ID3 χρησιμοποιεί το κέρδος πληροφορίας (information gain) για να επιλέξει χαρακτηριστικά.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 190",
+      "paragraph": "Λίστα (ID3)"
+    },
+    "right_answer": "Ο ID3 χρησιμοποιεί την εντροπία και το κέρδος πληροφορίας για να δημιουργήσει το δέντρο."
+  },
+  {
+    "question": "Ο δείκτης Gini (Gini Impurity) χρησιμοποιείται από τον αλγόριθμο CART.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 190",
+      "paragraph": "Λίστα (CART)"
+    },
+    "right_answer": "Ο αλγόριθμος CART χρησιμοποιεί το δείκτη Gini για να επιλέξει τα διαχωριστικά σημεία."
+  },
+  {
+    "question": "Το κλάδεμα (pruning) αυξάνει την πολυπλοκότητα του δέντρου απόφασης.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 191",
+      "paragraph": "1η παράγραφος (Προκλήσεις)"
+    },
+    "right_answer": "Το κλάδεμα αφαιρεί κλαδιά που δεν προσφέρουν σημαντική πληροφορία, μειώνοντας την πολυπλοκότητα και αποτρέποντας την υπερεκπαίδευση."
+  },
+  {
+    "question": "Τα Random Forests είναι μια τεχνική που συνδυάζει πολλά δέντρα αποφάσεων.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 192",
+      "paragraph": "2η παράγραφος (Random Forest)"
+    },
+    "right_answer": "Το Random Forest δημιουργεί πολλά δέντρα αποφάσεων και συνδυάζει τις προβλέψεις τους για μεγαλύτερη ακρίβεια."
+  },
+  {
+    "question": "Το Gradient Boosting εκπαιδεύει τα δέντρα παράλληλα και ανεξάρτητα το ένα από το άλλο.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 192",
+      "paragraph": "3η παράγραφος (Gradient Boosting)"
+    },
+    "right_answer": "Στο Gradient Boosting, τα δέντρα χτίζονται διαδοχικά, όπου κάθε νέο δέντρο προσπαθεί να διορθώσει τα λάθη του προηγούμενου."
+  },
+  {
+    "question": "Τα νευρωνικά δίκτυα δεν μπορούν να μάθουν μη γραμμικές συσχετίσεις μεταξύ δεδομένων.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 196",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Τα νευρωνικά δίκτυα είναι γνωστά για την ικανότητά τους να μαθαίνουν πολύπλοκες και μη γραμμικές συσχετίσεις."
+  },
+  {
+    "question": "Τα νευρωνικά δίκτυα χρησιμοποιούνται για την ανίχνευση προτύπων (pattern detection) σε Big Data.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 197",
+      "paragraph": "Λίστα (Ανίχνευση προτύπων)"
+    },
+    "right_answer": "Μπορούν να εντοπίσουν κρυμμένα μοτίβα σε μεγάλα σύνολα δεδομένων που είναι δύσκολα αντιληπτά."
+  },
+  {
+    "question": "Το TensorFlow είναι μια βιβλιοθήκη ανοιχτού κώδικα που αναπτύχθηκε από το Facebook.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 200",
+      "paragraph": "Λίστα (TensorFlow)"
+    },
+    "right_answer": "Το TensorFlow αναπτύχθηκε από την Google, όχι από το Facebook."
+  },
+  {
+    "question": "Το PyTorch φημίζεται για τον δυναμικό υπολογιστικό του γράφο.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 200",
+      "paragraph": "Λίστα (PyTorch)"
+    },
+    "right_answer": "Το PyTorch είναι γνωστό για την ευελιξία του και τον δυναμικό υπολογιστικό γράφο που διευκολύνει τον πειραματισμό."
+  },
+  {
+    "question": "Το Scikit-learn είναι εξειδικευμένο κυρίως για Βαθιά Μάθηση (Deep Learning).",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 201",
+      "paragraph": "Λίστα (Scikit-learn)"
+    },
+    "right_answer": "Το Scikit-learn εστιάζει σε παραδοσιακούς αλγορίθμους μηχανικής μάθησης (όπως δέντρα αποφάσεων, SVM), όχι deep learning."
+  },
+  {
+    "question": "Το Keras είναι ένα API υψηλού επιπέδου που τρέχει πάνω από το TensorFlow.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 201",
+      "paragraph": "Λίστα (Keras)"
+    },
+    "right_answer": "Το Keras σχεδιάστηκε για να είναι φιλικό προς τον χρήστη και τρέχει πάνω από πλατφόρμες όπως το TensorFlow."
+  },
+  {
+    "question": "Το πρόβλημα της εξαφάνισης της βαθμίδας (Vanishing Gradient Problem) δυσκολεύει την εκπαίδευση βαθιών δικτύων.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 203",
+      "paragraph": "1η παράγραφος (Vanishing Gradient)"
+    },
+    "right_answer": "Καθώς το σφάλμα διαδίδεται προς τα πίσω, οι βαθμίδες μπορεί να γίνουν πολύ μικρές, εμποδίζοντας την ενημέρωση των βαρών."
+  },
+  {
+    "question": "Η κανονικοποίηση δεδομένων (Data Normalization) δεν επηρεάζει την ταχύτητα εκπαίδευσης.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 205",
+      "paragraph": "2η παράγραφος (Κανονικοποίηση)"
+    },
+    "right_answer": "Η κανονικοποίηση βοηθά στην ταχύτερη σύγκλιση και βελτιώνει τη σταθερότητα της εκπαίδευσης."
+  },
+  {
+    "question": "Η αύξηση δεδομένων (Data Augmentation) περιλαμβάνει τη δημιουργία νέων παραδειγμάτων από τα υπάρχοντα.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 206",
+      "paragraph": "1η παράγραφος (Αύξηση Δεδομένων)"
+    },
+    "right_answer": "Τεχνικές όπως η περιστροφή ή η αναστροφή εικόνων χρησιμοποιούνται για να εμπλουτίσουν το σύνολο δεδομένων."
+  },
+  {
+    "question": "Η πρόωρη διακοπή (Early Stopping) σταματά την εκπαίδευση όταν αυξάνεται το σφάλμα στο σύνολο εκπαίδευσης.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 207",
+      "paragraph": "Λίστα (Πρόωρη διακοπή)"
+    },
+    "right_answer": "Σταματά την εκπαίδευση όταν η απόδοση στο σύνολο *επικύρωσης* (validation set) αρχίζει να χειροτερεύει, όχι στο set εκπαίδευσης."
+  },
+  {
+    "question": "Η αναζήτηση πλέγματος (Grid Search) χρησιμοποιείται για την εύρεση βέλτιστων υπερπαραμέτρων.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 208",
+      "paragraph": "1η παράγραφος (Βελτιστοποίηση υπερπαραμέτρων)"
+    },
+    "right_answer": "Η Grid Search δοκιμάζει συστηματικά συνδυασμούς παραμέτρων για να βρει την καλύτερη διαμόρφωση."
+  },
+  {
+    "question": "Στη μελέτη περίπτωσης της AlphaBank (σελ. 209), χρησιμοποιήθηκαν νευρωνικά δίκτυα για πρόβλεψη καιρού.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 209",
+      "paragraph": "1η παράγραφος (Μελέτη περίπτωσης)"
+    },
+    "right_answer": "Χρησιμοποιήθηκαν για τον εντοπισμό ύποπτων συναλλαγών (απάτης), όχι για πρόβλεψη καιρού."
+  },
+  {
+    "question": "Τα νευρωνικά δίκτυα στη μελέτη περίπτωσης της AlphaBank μείωσαν τα ψευδώς θετικά αποτελέσματα.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 209",
+      "paragraph": "3η παράγραφος"
+    },
+    "right_answer": "Το σύστημα πέτυχε μείωση των ψευδώς θετικών (false positives), βελτιώνοντας την εμπειρία των πελατών."
+  },
+  {
+    "question": "Η αρχιτεκτονική YOLO (You Only Look Once) χρησιμοποιείται για την τμηματοποίηση πελατών.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 186",
+      "paragraph": "Λίστα (Ανίχνευση αντικειμένων)"
+    },
+    "right_answer": "Το YOLO είναι αλγόριθμος για ανίχνευση αντικειμένων (object detection) σε εικόνες/βίντεο."
+  },
+  {
+    "question": "Τα Autoencoders χρησιμοποιούνται συχνά για συμπίεση δεδομένων.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 182",
+      "paragraph": "3η παράγραφος (Autoencoders)"
+    },
+    "right_answer": "Οι Autoencoders μαθαίνουν να συμπιέζουν τα δεδομένα εισόδου σε μια αναπαράσταση χαμηλότερης διάστασης."
+  },
+  {
+    "question": "Η συνάρτηση Sigmoid επιστρέφει τιμές στο διάστημα [-1, 1].",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 180",
+      "paragraph": "Λίστα (Sigmoid)"
+    },
+    "right_answer": "Η Sigmoid επιστρέφει τιμές στο διάστημα [0, 1]. Η Tanh επιστρέφει [-1, 1]."
+  },
+  {
+    "question": "Η χρήση GPUs (Graphics Processing Units) επιταχύνει την εκπαίδευση των νευρωνικών δικτύων.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 204",
+      "paragraph": "2η παράγραφος (Υλικό)"
+    },
+    "right_answer": "Οι GPUs μπορούν να εκτελούν παράλληλους υπολογισμούς, μειώνοντας δραματικά τον χρόνο εκπαίδευσης."
+  },
+  {
+    "question": "Το 'Bias' (πόλωση) σε έναν νευρώνα λειτουργεί παρόμοια με τη σταθερά σε μια γραμμική εξίσωση.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 179",
+      "paragraph": "Λίστα (Βάρη και Πόλωση)"
+    },
+    "right_answer": "Η πόλωση (bias) επιτρέπει τη μετατόπιση της συνάρτησης ενεργοποίησης, όπως η σταθερά b στην εξίσωση y = ax + b."
+  },
+  {
+    "question": "Τα νευρωνικά δίκτυα απαιτούν πάντα τεράστιες ποσότητες δεδομένων για να λειτουργήσουν, ακόμη και για απλά προβλήματα.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 202",
+      "paragraph": "1η παράγραφος (Ανάγκη για δεδομένα)"
+    },
+    "right_answer": "Για απλά προβλήματα μπορεί να αρκούν λιγότερα δεδομένα, αν και γενικά τα βαθιά δίκτυα αποδίδουν καλύτερα με πολλά δεδομένα."
+  },
+  {
+    "question": "Η μελέτη περίπτωσης της RetailCorp (σελ. 210) αφορούσε τη βελτιστοποίηση της εφοδιαστικής αλυσίδας.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 210",
+      "paragraph": "1η παράγραφος"
+    },
+    "right_answer": "Η RetailCorp χρησιμοποίησε νευρωνικά δίκτυα για να βελτιώσει τις προβλέψεις ζήτησης και τη διαχείριση αποθεμάτων."
+  },
+  {
+    "question": "Η RetailCorp πέτυχε μείωση του κόστους αποθήκευσης κατά 5% με τη χρήση του νέου συστήματος.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 210",
+      "paragraph": "3η παράγραφος"
+    },
+    "right_answer": "Η μείωση του κόστους αποθήκευσης ήταν 20%, όχι 5%."
+  },
+  {
+    "question": "Η μεταφορά μάθησης (Transfer Learning) επιτρέπει τη χρήση ενός προ-εκπαιδευμένου μοντέλου σε νέο πρόβλημα.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 206",
+      "paragraph": "2η παράγραφος (Μεταφορά μάθησης)"
+    },
+    "right_answer": "Επιτρέπει την αξιοποίηση γνώσης από ένα μοντέλο που εκπαιδεύτηκε σε μεγάλο σύνολο δεδομένων για ένα νέο, παρόμοιο πρόβλημα."
+  },
+  {
+    "question": "Το ONNX είναι πρότυπο για την ανταλλαγή μοντέλων τεχνητής νοημοσύνης.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 201",
+      "paragraph": "Λίστα (Εργαλεία - ONNX)"
+    },
+    "right_answer": "Το ONNX (Open Neural Network Exchange) επιτρέπει τη μεταφορά μοντέλων μεταξύ διαφορετικών πλαισίων (frameworks)."
+  },
+  {
+    "question": "Η αρχιτεκτονική LSTM (Long Short-Term Memory) είναι τύπος CNN.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 182",
+      "paragraph": "1η παράγραφος (RNNs/LSTM)"
+    },
+    "right_answer": "Το LSTM είναι ειδικός τύπος Αναδρομικού Νευρωνικού Δικτύου (RNN), όχι CNN."
+  },
+  {
+    "question": "Τα βαθιά νευρωνικά δίκτυα λειτουργούν ως 'μαύρα κουτιά' (black boxes), καθιστώντας δύσκολη την ερμηνεία τους.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 204",
+      "paragraph": "1η παράγραφος (Ερμηνευσιμότητα)"
+    },
+    "right_answer": "Λόγω της πολυπλοκότητάς τους, είναι συχνά δύσκολο να κατανοηθεί πώς ακριβώς καταλήγουν σε μια συγκεκριμένη απόφαση."
+  },
+  {
+    "question": "Ο 'θόρυβος' στα δεδομένα βοηθάει πάντα το μοντέλο να μάθει καλύτερα.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 202",
+      "paragraph": "2η παράγραφος (Ποιότητα δεδομένων)"
+    },
+    "right_answer": "Ο θόρυβος και οι ανακρίβειες στα δεδομένα δυσχεραίνουν την εκπαίδευση και μειώνουν την απόδοση."
+  },
+  {
+    "question": "Η Google Colab προσφέρει δωρεάν πρόσβαση σε GPUs.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 201",
+      "paragraph": "Λίστα (Πλατφόρμες)"
+    },
+    "right_answer": "Το Google Colab είναι δημοφιλές γιατί παρέχει δωρεάν πρόσβαση σε GPU για πειραματισμό."
+  },
+  {
+    "question": "Το Batch Normalization εφαρμόζεται μόνο στα δεδομένα εισόδου του δικτύου.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 206",
+      "paragraph": "Λίστα (Batch Normalization)"
+    },
+    "right_answer": "Εφαρμόζεται σε ενδιάμεσα επίπεδα για να σταθεροποιήσει και να επιταχύνει την εκπαίδευση, όχι μόνο στην είσοδο."
+  },
+  {
+    "question": "Η συνάρτηση Tanh είναι κεντρισμένη στο μηδέν (zero-centered).",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 180",
+      "paragraph": "Λίστα (Tanh)"
+    },
+    "right_answer": "Σε αντίθεση με τη Sigmoid, η Tanh κυμαίνεται από -1 έως 1 και είναι κεντρισμένη στο 0."
+  },
+  {
+    "question": "Η ταξινόμηση εικόνων (Image Classification) αναθέτει μία ετικέτα σε ολόκληρη την εικόνα.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 186",
+      "paragraph": "Λίστα (Ταξινόμηση εικόνων)"
+    },
+    "right_answer": "Στην ταξινόμηση εικόνων, ο στόχος είναι να αναγνωριστεί τι περιέχει η εικόνα συνολικά (π.χ. 'γάτα')."
+  },
+  {
+    "question": "Τα Fully Connected Layers συνδέουν κάθε νευρώνα με όλους τους νευρώνες του επόμενου επιπέδου.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 181",
+      "paragraph": "1η παράγραφος (Fully Connected)"
+    },
+    "right_answer": "Στα πλήρως συνδεδεμένα επίπεδα, κάθε κόμβος συνδέεται με κάθε κόμβο του επόμενου επιπέδου."
+  },
+  {
+    "question": "Η μηχανική όραση (Computer Vision) δεν μπορεί να χρησιμοποιηθεί για ιατρική διάγνωση.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 186",
+      "paragraph": "Λίστα (Ιατρική απεικόνιση)"
+    },
+    "right_answer": "Χρησιμοποιείται ευρέως για την ανάλυση ακτινογραφιών και τον εντοπισμό όγκων."
+  },
+  {
+    "question": "Το επίπεδο Pooling στα CNNs χρησιμοποιείται για τη μείωση των διαστάσεων.",
+    "answer": true,
+    "chapter_number": 6,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 181",
+      "paragraph": "Λίστα (Pooling Layer)"
+    },
+    "right_answer": "Το Pooling μειώνει το χωρικό μέγεθος της αναπαράστασης, μειώνοντας τον όγκο των υπολογισμών."
+  },
+  {
+    "question": "Η Αλγοριθμική Μεροληψία (Algorithmic Bias) δεν αποτελεί πρόβλημα στα νευρωνικά δίκτυα.",
+    "answer": false,
+    "chapter_number": 6,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 204",
+      "paragraph": "3η παράγραφος (Ηθικά ζητήματα)"
+    },
+    "right_answer": "Αν τα δεδομένα εκπαίδευσης περιέχουν προκαταλήψεις, το μοντέλο θα τις μάθει και θα τις αναπαράγει."
+  }
+]

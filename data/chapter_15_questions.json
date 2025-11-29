@@ -1,0 +1,662 @@
+[
+  {
+    "question": "Η ανάλυση απαιτήσεων δεν θεωρείται κρίσιμο στάδιο για την υλοποίηση έργων τεχνητής νοημοσύνης.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 372",
+      "paragraph": "1η παράγραφος (15.4)"
+    },
+    "right_answer": "Η ανάλυση απαιτήσεων είναι κρίσιμη για την κατανόηση των αναγκών και την επιτυχή υλοποίηση έργων AI."
+  },
+  {
+    "question": "Τα KPIs (Δείκτες Απόδοσης) πρέπει να καθορίζονται κατά τη φάση ανάλυσης απαιτήσεων.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 372",
+      "paragraph": "3η παράγραφος (Καθορισμός Απαιτήσεων)"
+    },
+    "right_answer": "Η μέτρηση της επιτυχίας απαιτεί τον σαφή καθορισμό δεικτών απόδοσης (KPIs) από την αρχή."
+  },
+  {
+    "question": "Η πιλοτική εφαρμογή (Pilot) δεν χρειάζεται να δοκιμαστεί σε πραγματικές συνθήκες.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 373",
+      "paragraph": "1η παράγραφος (15.5)"
+    },
+    "right_answer": "Η πιλοτική εφαρμογή πρέπει να δοκιμάζεται σε περιορισμένο αλλά αντιπροσωπευτικό και πραγματικό περιβάλλον."
+  },
+  {
+    "question": "Ο καθαρισμός δεδομένων είναι απαραίτητο βήμα πριν την εκπαίδευση μοντέλων.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 370",
+      "paragraph": "1η παράγραφος (15.3)"
+    },
+    "right_answer": "Τα δεδομένα πρέπει να είναι καθαρά και αξιόπιστα για να παράγουν σωστά αποτελέσματα."
+  },
+  {
+    "question": "Οι Μικρομεσαίες Επιχειρήσεις (ΜμΕ) δεν μπορούν να χρησιμοποιήσουν εργαλεία 'no-code' AI.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 368",
+      "paragraph": "2η παράγραφος (Εργαλεία)"
+    },
+    "right_answer": "Υπάρχουν πλατφόρμες no-code που επιτρέπουν σε ΜμΕ να χρησιμοποιούν AI χωρίς εξειδικευμένες γνώσεις προγραμματισμού."
+  },
+  {
+    "question": "Η βιωσιμότητα μιας λύσης AI εξαρτάται μόνο από το αρχικό κόστος υλοποίησης.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 374",
+      "paragraph": "1η παράγραφος (15.6)"
+    },
+    "right_answer": "Η βιωσιμότητα εξαρτάται από το μακροπρόθεσμο κόστος συντήρησης, την απόδοση και την επεκτασιμότητα."
+  },
+  {
+    "question": "Η αξιολόγηση της ποιότητας των δεδομένων περιλαμβάνει τον έλεγχο για ελλιπείς τιμές.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 371",
+      "paragraph": "Λίστα (Καθαρισμός)"
+    },
+    "right_answer": "Ο εντοπισμός και η διαχείριση ελλιπών τιμών είναι βασικό μέρος του καθαρισμού δεδομένων."
+  },
+  {
+    "question": "Η επεκτασιμότητα (scalability) αφορά την ικανότητα του συστήματος να διαχειριστεί αυξημένο όγκο δεδομένων.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 375",
+      "paragraph": "2η παράγραφος (Επεκτασιμότητα)"
+    },
+    "right_answer": "Είναι η δυνατότητα του συστήματος να ανταποκρίνεται σε μεγαλύτερες απαιτήσεις χωρίς απώλεια απόδοσης."
+  },
+  {
+    "question": "Στη μελέτη περίπτωσης της ελληνικής ΜμΕ (σελ. 376), η εταιρεία ανήκε στον κλάδο της βαριάς βιομηχανίας.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 376",
+      "paragraph": "Εισαγωγή (15.7)"
+    },
+    "right_answer": "Η μελέτη αφορά εταιρεία λιανικού εμπορίου (e-shop) ενδυμάτων, όχι βαριάς βιομηχανίας."
+  },
+  {
+    "question": "Η χρήση chatbots μπορεί να βελτιώσει την εξυπηρέτηση πελατών σε 24ωρη βάση.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 377",
+      "paragraph": "Λύση"
+    },
+    "right_answer": "Τα chatbots προσφέρουν άμεση εξυπηρέτηση οποιαδήποτε στιγμή της ημέρας."
+  },
+  {
+    "question": "Η 'Εξόρυξη Δεδομένων' (Data Mining) δεν σχετίζεται με την επιλογή δεδομένων.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 370",
+      "paragraph": "2η παράγραφος"
+    },
+    "right_answer": "Η εξόρυξη δεδομένων χρησιμοποιείται για τον εντοπισμό των κατάλληλων συνόλων δεδομένων προς ανάλυση."
+  },
+  {
+    "question": "Η μελέτη περίπτωσης πρόβλεψης ζήτησης (σελ. 379) αφορούσε εταιρεία τροφίμων.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 379",
+      "paragraph": "Εισαγωγή (15.8)"
+    },
+    "right_answer": "Η εταιρεία δραστηριοποιούνταν στο εμπόριο τροφίμων και ποτών."
+  },
+  {
+    "question": "Η ακρίβεια των προβλέψεων ζήτησης δεν επηρεάζει το απόθεμα της αποθήκης.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 380",
+      "paragraph": "Αποτελέσματα"
+    },
+    "right_answer": "Η βελτιωμένη πρόβλεψη μειώνει το πλεόνασμα ή την έλλειψη αποθεμάτων (stock optimization)."
+  },
+  {
+    "question": "Το GDPR πρέπει να λαμβάνεται υπόψη κατά την επιλογή δεδομένων πελατών.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 371",
+      "paragraph": "Νομικά"
+    },
+    "right_answer": "Η συμμόρφωση με κανονισμούς προστασίας δεδομένων όπως το GDPR είναι υποχρεωτική."
+  },
+  {
+    "question": "Τα εργαλεία AutoML απαιτούν βαθιά γνώση αλγορίθμων από τον χρήστη.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 369",
+      "paragraph": "Λίστα (AutoML)"
+    },
+    "right_answer": "Σχεδιάστηκαν για να αυτοματοποιούν τη διαδικασία ώστε να μη χρειάζεται εξειδικευμένη γνώση."
+  },
+  {
+    "question": "Η ανάλυση 'SWOT' μπορεί να βοηθήσει στον καθορισμό της στρατηγικής AI.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 367",
+      "paragraph": "Στάδια"
+    },
+    "right_answer": "Βοηθά στον εντοπισμό των δυνατών σημείων και των ευκαιριών που προσφέρει η AI."
+  },
+  {
+    "question": "Η πιλοτική φάση πρέπει να έχει σαφώς ορισμένη χρονική διάρκεια.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 373",
+      "paragraph": "Χρονοδιάγραμμα"
+    },
+    "right_answer": "Ο καθορισμός χρονικού πλαισίου είναι απαραίτητος για την αξιολόγηση της πιλοτικής φάσης."
+  },
+  {
+    "question": "Η μείωση του χρόνου απόκρισης κατά 40% αναφέρεται ως αποτέλεσμα στη μελέτη της ελληνικής ΜμΕ.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 378",
+      "paragraph": "Αποτελέσματα"
+    },
+    "right_answer": "Η αυτοματοποίηση μείωσε δραστικά τον χρόνο απόκρισης στα αιτήματα πελατών."
+  },
+  {
+    "question": "Η εκπαίδευση του προσωπικού δεν είναι απαραίτητη κατά την εισαγωγή συστημάτων AI.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 367",
+      "paragraph": "Κουλτούρα"
+    },
+    "right_answer": "Η εκπαίδευση και η αλλαγή κουλτούρας είναι κρίσιμα για την υιοθέτηση της τεχνολογίας."
+  },
+  {
+    "question": "Οι πλατφόρμες 'Cloud AI' προσφέρουν ευελιξία και χαμηλό αρχικό κόστος.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 368",
+      "paragraph": "Cloud Platforms"
+    },
+    "right_answer": "Επιτρέπουν τη χρήση ισχυρών πόρων με μοντέλο 'pay-as-you-go'."
+  },
+  {
+    "question": "Η ενοποίηση (integration) με τα υπάρχοντα συστήματα (ERP, CRM) είναι πρόκληση στην εφαρμογή AI.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 366",
+      "paragraph": "Τεχνικές προκλήσεις"
+    },
+    "right_answer": "Η διασύνδεση νέων εργαλείων με παλαιότερες υποδομές απαιτεί προσεκτικό σχεδιασμό."
+  },
+  {
+    "question": "Η 'υπερεκπαίδευση' (overfitting) είναι επιθυμητή κατά την εκπαίδευση μοντέλων.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 374",
+      "paragraph": "Βελτιστοποίηση"
+    },
+    "right_answer": "Η υπερεκπαίδευση μειώνει την ικανότητα του μοντέλου να γενικεύει σε νέα δεδομένα."
+  },
+  {
+    "question": "Η μελέτη περίπτωσης πρόβλεψης ζήτησης χρησιμοποίησε ιστορικά δεδομένα πωλήσεων 3 ετών.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 379",
+      "paragraph": "Δεδομένα"
+    },
+    "right_answer": "Αναλύθηκαν δεδομένα πωλήσεων τριετίας για τον εντοπισμό εποχικότητας."
+  },
+  {
+    "question": "Η απόδοση της επένδυσης (ROI) δεν μπορεί να μετρηθεί σε έργα AI.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 375",
+      "paragraph": "ROI"
+    },
+    "right_answer": "Ο υπολογισμός του ROI είναι βασικός για την αξιολόγηση της οικονομικής επιτυχίας του έργου."
+  },
+  {
+    "question": "Η Google Cloud AI Platform αναφέρεται ως εργαλείο για επιχειρήσεις.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 369",
+      "paragraph": "Λίστα (Google)"
+    },
+    "right_answer": "Αναφέρεται ως μία από τις κυρίαρχες πλατφόρμες παροχής υπηρεσιών AI."
+  },
+  {
+    "question": "Τα 'Silos' δεδομένων διευκολύνουν την εκπαίδευση μοντέλων AI.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 370",
+      "paragraph": "Προκλήσεις δεδομένων"
+    },
+    "right_answer": "Τα απομονωμένα δεδομένα (silos) δυσκολεύουν την ολοκληρωμένη ανάλυση και πρέπει να ενοποιούνται."
+  },
+  {
+    "question": "Η εξατομίκευση προσφορών αύξησε τις πωλήσεις κατά 15% στη μελέτη της ελληνικής ΜμΕ.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 378",
+      "paragraph": "Αποτελέσματα"
+    },
+    "right_answer": "Η στοχευμένη προώθηση προϊόντων οδήγησε σε σημαντική αύξηση του τζίρου."
+  },
+  {
+    "question": "Η συντήρηση του μοντέλου AI σταματά μετά την αρχική υλοποίηση.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 374",
+      "paragraph": "Συντήρηση"
+    },
+    "right_answer": "Τα μοντέλα απαιτούν συνεχή παρακολούθηση και επανεκπαίδευση καθώς τα δεδομένα αλλάζουν."
+  },
+  {
+    "question": "Η επιλογή των σωστών KPIs είναι ευθύνη αποκλειστικά των προγραμματιστών.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 372",
+      "paragraph": "Ρόλοι"
+    },
+    "right_answer": "Πρέπει να γίνεται σε συνεργασία με τη διοίκηση για να αντικατοπτρίζει τους επιχειρηματικούς στόχους."
+  },
+  {
+    "question": "Η Azure AI είναι πλατφόρμα της Microsoft.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 369",
+      "paragraph": "Λίστα (Microsoft)"
+    },
+    "right_answer": "Είναι η βασική πλατφόρμα υπηρεσιών νέφους για AI της Microsoft."
+  },
+  {
+    "question": "Η μείωση των λειτουργικών εξόδων είναι κοινός στόχος έργων AI.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 366",
+      "paragraph": "Στόχοι"
+    },
+    "right_answer": "Η αυτοματοποίηση και η βελτιστοποίηση οδηγούν συχνά σε μείωση κόστους."
+  },
+  {
+    "question": "Η ανωνυμοποίηση δεδομένων δεν είναι απαραίτητη αν τα δεδομένα χρησιμοποιούνται εσωτερικά.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 371",
+      "paragraph": "Ιδιωτικότητα"
+    },
+    "right_answer": "Η προστασία προσωπικών δεδομένων είναι υποχρεωτική ανεξάρτητα από την εσωτερική ή εξωτερική χρήση."
+  },
+  {
+    "question": "Η πρόβλεψη ζήτησης βοήθησε στη μείωση των ληγμένων προϊόντων.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 380",
+      "paragraph": "Αποτελέσματα"
+    },
+    "right_answer": "Η καλύτερη διαχείριση αποθέματος μείωσε τη σπατάλη τροφίμων."
+  },
+  {
+    "question": "Τα δεδομένα από κοινωνικά δίκτυα (Social Media) δεν μπορούν να χρησιμοποιηθούν για ανάλυση τάσεων.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 370",
+      "paragraph": "Πηγές δεδομένων"
+    },
+    "right_answer": "Τα social media είναι πλούσια πηγή δεδομένων για το συναίσθημα και τις προτιμήσεις των καταναλωτών."
+  },
+  {
+    "question": "Η Python είναι η πιο δημοφιλής γλώσσα προγραμματισμού για AI.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 368",
+      "paragraph": "Εργαλεία"
+    },
+    "right_answer": "Λόγω των βιβλιοθηκών της, η Python κυριαρχεί στην ανάπτυξη AI."
+  },
+  {
+    "question": "Η 'κλιμακωτή προσέγγιση' (staged approach) μειώνει το ρίσκο στην υλοποίηση AI.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 366",
+      "paragraph": "Στρατηγική"
+    },
+    "right_answer": "Ξεκινώντας μικρά και επεκτείνοντας σταδιακά, μειώνεται ο κίνδυνος αποτυχίας."
+  },
+  {
+    "question": "Η IBM Watson δεν προσφέρει εργαλεία για επιχειρήσεις.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 369",
+      "paragraph": "Λίστα (IBM)"
+    },
+    "right_answer": "Η IBM Watson είναι γνωστή για τις enterprise λύσεις της."
+  },
+  {
+    "question": "Η ποιότητα των αποτελεσμάτων AI εξαρτάται άμεσα από την ποιότητα των δεδομένων εισόδου (Garbage In, Garbage Out).",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 370",
+      "paragraph": "Ποιότητα δεδομένων"
+    },
+    "right_answer": "Είναι θεμελιώδης αρχή: κακά δεδομένα οδηγούν σε κακά αποτελέσματα."
+  },
+  {
+    "question": "Στη μελέτη περίπτωσης (σελ. 376), η εταιρεία δεν είχε προηγούμενη εμπειρία με AI.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 376",
+      "paragraph": "Ιστορικό"
+    },
+    "right_answer": "Ήταν η πρώτη φορά που η εταιρεία πειραματιζόταν με τεχνολογίες τεχνητής νοημοσύνης."
+  },
+  {
+    "question": "Η διαφάνεια προς τους πελάτες για τη χρήση AI είναι προαιρετική.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 377",
+      "paragraph": "Ηθική"
+    },
+    "right_answer": "Η εμπιστοσύνη απαιτεί διαφάνεια σχετικά με το πότε και πώς χρησιμοποιείται η AI."
+  },
+  {
+    "question": "Η μελέτη περίπτωσης (σελ. 379) ανέδειξε τη σημασία της εποχικότητας στις πωλήσεις.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 380",
+      "paragraph": "Ανάλυση"
+    },
+    "right_answer": "Ο εντοπισμός εποχικών μοτίβων ήταν κλειδί για την ακριβή πρόβλεψη."
+  },
+  {
+    "question": "Το TensorFlow είναι βιβλιοθήκη ανοικτού κώδικα.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 368",
+      "paragraph": "Βιβλιοθήκες"
+    },
+    "right_answer": "Είναι δημοφιλές open-source framework για μηχανική μάθηση."
+  },
+  {
+    "question": "Η υλοποίηση AI σε μια επιχείρηση ολοκληρώνεται σε μία εβδομάδα.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 367",
+      "paragraph": "Χρονοδιάγραμμα"
+    },
+    "right_answer": "Είναι διαδικασία που απαιτεί μήνες για σχεδιασμό, ανάπτυξη και δοκιμές."
+  },
+  {
+    "question": "Η ανάλυση 'Cost-Benefit' είναι μέρος της προετοιμασίας.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 367",
+      "paragraph": "Οικονομική ανάλυση"
+    },
+    "right_answer": "Αξιολογεί αν τα αναμενόμενα οφέλη δικαιολογούν το κόστος επένδυσης."
+  },
+  {
+    "question": "Οι αλγόριθμοι ομαδοποίησης (Clustering) χρησιμοποιήθηκαν για την τμηματοποίηση πελατών.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 377",
+      "paragraph": "Τεχνική"
+    },
+    "right_answer": "Χρησιμοποιήθηκαν για να χωρίσουν τους πελάτες σε ομάδες με βάση τη συμπεριφορά τους."
+  },
+  {
+    "question": "Η επιτυχία ενός έργου AI εξαρτάται μόνο από την τεχνολογία και όχι από τους ανθρώπους.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 375",
+      "paragraph": "Παράγοντες επιτυχίας"
+    },
+    "right_answer": "Ο ανθρώπινος παράγοντας και η αποδοχή από το προσωπικό είναι εξίσου κρίσιμα."
+  },
+  {
+    "question": "Τα 'Data Lakes' χρησιμοποιούνται για την αποθήκευση μεγάλου όγκου ακατέργαστων δεδομένων.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 370",
+      "paragraph": "Αποθήκευση"
+    },
+    "right_answer": "Είναι αποθετήρια που δέχονται δεδομένα σε οποιαδήποτε μορφή για μελλοντική χρήση."
+  },
+  {
+    "question": "Η Amazon Web Services (AWS) δεν παρέχει υπηρεσίες μηχανικής μάθησης.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 369",
+      "paragraph": "Λίστα (Amazon)"
+    },
+    "right_answer": "Το AWS SageMaker είναι βασική υπηρεσία ML της Amazon."
+  },
+  {
+    "question": "Η 'κανονικοποίηση' (normalization) είναι τεχνική προεπεξεργασίας δεδομένων.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 371",
+      "paragraph": "Προεπεξεργασία"
+    },
+    "right_answer": "Προσαρμόζει τις τιμές των δεδομένων σε μια κοινή κλίμακα για καλύτερη εκπαίδευση."
+  },
+  {
+    "question": "Η μελέτη περίπτωσης (σελ. 379) έδειξε μείωση του λειτουργικού κόστους αποθήκης κατά 25%.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 380",
+      "paragraph": "Αποτελέσματα"
+    },
+    "right_answer": "Η βελτιστοποίηση μείωσε σημαντικά το κόστος διατήρησης αποθεμάτων."
+  },
+  {
+    "question": "Η εξωτερική ανάθεση (outsourcing) ανάπτυξης AI απαγορεύεται.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 368",
+      "paragraph": "Στρατηγική υλοποίησης"
+    },
+    "right_answer": "Πολλές εταιρείες επιλέγουν συνεργάτες ή freelancers για την ανάπτυξη λύσεων."
+  },
+  {
+    "question": "Η 'επισημείωση δεδομένων' (data labeling) είναι συχνά χρονοβόρα διαδικασία.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 371",
+      "paragraph": "Προκλήσεις"
+    },
+    "right_answer": "Απαιτείται για την επιβλεπόμενη μάθηση και μπορεί να απαιτεί πολύ ανθρώπινο χρόνο."
+  },
+  {
+    "question": "Η επαλήθευση (validation) του μοντέλου γίνεται με τα ίδια δεδομένα που χρησιμοποιήθηκαν για την εκπαίδευση.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "hard",
+    "reference": {
+      "page": "σελ. 373",
+      "paragraph": "Δοκιμές"
+    },
+    "right_answer": "Πρέπει να χρησιμοποιούνται ξεχωριστά δεδομένα (test set) για να ελεγχθεί η πραγματική απόδοση."
+  },
+  {
+    "question": "Η χρήση AI για προβλέψεις πωλήσεων είναι παράδειγμα 'Predictive Analytics'.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 379",
+      "paragraph": "Ορισμός"
+    },
+    "right_answer": "Χρησιμοποιεί ιστορικά δεδομένα για να προβλέψει μελλοντικά γεγονότα."
+  },
+  {
+    "question": "Η 'επεξεργασία σε πραγματικό χρόνο' (real-time processing) ήταν απαίτηση για το chatbot της ΜμΕ.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 377",
+      "paragraph": "Απαιτήσεις"
+    },
+    "right_answer": "Η άμεση απόκριση στον πελάτη απαιτεί real-time επεξεργασία."
+  },
+  {
+    "question": "Τα δεδομένα πελατών θεωρούνται 'ευαίσθητα' δεδομένα.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 371",
+      "paragraph": "Ασφάλεια"
+    },
+    "right_answer": "Απαιτούν ειδική προστασία και χειρισμό βάσει νομοθεσίας."
+  },
+  {
+    "question": "Η μελέτη περίπτωσης (σελ. 376) απέδειξε ότι η AI είναι μόνο για πολυεθνικές.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "easy",
+    "reference": {
+      "page": "σελ. 378",
+      "paragraph": "Συμπέρασμα"
+    },
+    "right_answer": "Ανέδειξε ότι και μικρές επιχειρήσεις μπορούν να επωφεληθούν σημαντικά."
+  },
+  {
+    "question": "Η Tableau είναι πλατφόρμα οπτικοποίησης που μπορεί να συνδυαστεί με AI.",
+    "answer": true,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 369",
+      "paragraph": "Εργαλεία BI"
+    },
+    "right_answer": "Χρησιμοποιείται για την παρουσίαση των αποτελεσμάτων της ανάλυσης."
+  },
+  {
+    "question": "Η αποτυχία ενός πιλοτικού προγράμματος σημαίνει απαραίτητα το τέλος της προσπάθειας για AI.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 373",
+      "paragraph": "Αξιολόγηση"
+    },
+    "right_answer": "Η αποτυχία προσφέρει μαθήματα για αναπροσαρμογή στρατηγικής (fail fast, learn fast)."
+  },
+  {
+    "question": "Ο κύκλος ζωής ενός έργου AI είναι γραμμικός και τελειώνει με την παράδοση.",
+    "answer": false,
+    "chapter_number": 15,
+    "difficulty": "medium",
+    "reference": {
+      "page": "σελ. 374",
+      "paragraph": "Κύκλος ζωής"
+    },
+    "right_answer": "Είναι κυκλικός και επαναλαμβανόμενος (iterative), με συνεχή βελτίωση."
+  }
+]

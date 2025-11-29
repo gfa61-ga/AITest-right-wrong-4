@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 id="chapter-title"></h1>
+      <div class="progress-bar">
+        <div class="progress-fill" id="progress"></div>
+      </div>
+      <p class="progress-text" id="progress-text">0 / 0</p>
+    </header>
+    <div id="quiz-container"></div>
+    <div class="button-container">
+      <button class="btn btn-primary" id="submit-btn">Έλεγχος Απαντήσεων</button>
+      <button class="btn btn-secondary" onclick="window.location='index.html'">Επιστροφή</button>
+    </div>
+    <div id="results" class="hidden"></div>
+  </div>
+  <script src="quiz.js"></script>
+</body>
+</html>

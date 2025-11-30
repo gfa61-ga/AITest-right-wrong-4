@@ -198,7 +198,7 @@ submitBtn.onclick = () => {
       userAnswerText = userAnswer ? 'Σωστό' : 'Λάθος';
       if (isCorrect) {
         resultClass = 'correct';
-        correctInfo = correctAnswer==true ?'✓' : q.right_answer;
+        correctInfo = q.right_answer;
         score++;
       } else {
         resultClass = 'incorrect';

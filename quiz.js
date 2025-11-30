@@ -245,6 +245,7 @@ submitBtn.onclick = () => {
 
   results.innerHTML = html;
   results.classList.remove('hidden');
+  quizContainer.classList.add('hidden');
   submitBtn.disabled = true;
   window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
 };

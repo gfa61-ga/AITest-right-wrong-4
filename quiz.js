@@ -174,7 +174,7 @@ function updateProgress() {
 
 submitBtn.onclick = () => {
   let score = 0;
-  let tableHtml = '<table><thead><tr><th>#</th><th>Ερώτηση</th><th>Κεφ.</th><th>Η απάντηση σας </th><th>Σωστή απάντηση</th></tr></thead><tbody>';
+  let tableHtml = '<table><thead><tr><th>#</th><th>Ερώτηση</th><th>Κεφ.</th><th>Η απάντηση σας </th><th>Επεξήγηση</th></tr></thead><tbody>';
   let cardsHtml = '<div class="results-card-view">';
 
   questions.forEach((q, i) => {
@@ -203,7 +203,7 @@ submitBtn.onclick = () => {
       } else {
         resultClass = 'incorrect';
         const correctAnswerText = correctAnswer ? 'Σωστό' : 'Λάθος';
-        correctInfo = q.right_answer ? `${correctAnswerText}<br><em>${q.right_answer}</em>` : correctAnswerText;
+        correctInfo = `<em>${q.right_answer}</em>`;
       }
     }
 
@@ -225,7 +225,7 @@ submitBtn.onclick = () => {
           <span class="result-card-value ${resultClass}">${userAnswerText}</span>
         </div>
         <div class="result-card-row">
-          <span class="result-card-label">Σωστή απάντηση:</span>
+          <span class="result-card-label">Επεξήγηση:</span>
           <span class="result-card-value">${correctInfo.replace(/<br>/g, ' - ').replace(/<em>/g, '').replace(/<\/em>/g, '')}</span>
         </div>
       </div>
